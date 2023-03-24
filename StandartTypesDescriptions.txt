@@ -17,8 +17,6 @@ Emax = efficacy, the maximum effect which can be expected from this drug
 Rate of oxidation
 Delta Tm = the difference between the melting temperature for calf thymus DNA with drug and without drug
 Kd;Kdiss = equilibrium dissociation constant, the inverse of the affinity of the drug for the receptor
-pIC50 = the negative log of the IC50 value when converted to molar
-Inhibitory index = an inverse measure of the potency of an antimetabolite
 Vmax(app) = apparent Vmax
 PPB = plasma protein binding
 Cmax = the maximum serum concentration that a drug achieves after administration
@@ -45,3 +43,5 @@ Ki = inhibitor constant, how potent an inhibitor is; it is the concentration req
 Kinact;kinact = first-order rate constant that defines the maximum rate of enzyme inactivation
 mechanism based inhibition = unreactive molecules that are transformed into an active species that inhibits the enzyme
 Imax = inhibitory maximum
+pIC50 = the negative log of the IC50 value when converted to molar
+Inhibitory index = an inverse measure of the potency of an antimetabolite
