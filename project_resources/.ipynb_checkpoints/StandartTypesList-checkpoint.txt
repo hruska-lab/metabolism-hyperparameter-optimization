@@ -1,0 +1,53 @@
+AC50                          17143
+Potency                       13692
+IC50                          11712
+Inhibition                     4765
+Activity                       1602
+Ki                             1112
+Drug metabolism                 498
+INH                             495
+TDI                             343
+Ratio IC50                      246
+FC                              195
+Stability                       126
+Kinact                          111
+Ratio                            97
+Km                               71
+T1/2                             70
+K                                66
+Log 1/Km                         58
+Compound recovery                54
+CL                               45
+Kcat                             44
+EC50                             36
+mechanism based inhibition       34
+Ks                               31
+Vmax                             28
+Rate of oxidation                18
+Delta Tm                         16
+Kd                               16
+Vmax/Km                          14
+IC20                             13
+Retention_time                   12
+Emax                             12
+Inhibitory index                  9
+deltaA                            9
+Tm                                8
+IC90                              8
+IC                                7
+Fm                                6
+Partition ratio                   5
+t1/2                              4
+NOAEL                             4
+CL free                           3
+Vmax(app)                         2
+IC5                               2
+Control of P-450 marker           2
+PPB                               1
+Log IC50                          1
+Imax                              1
+pIC50                             1
+kinact                            1
+Kdiss                             1
+Cmax                              1
+Drug uptake                       1
