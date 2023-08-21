@@ -1,0 +1,15 @@
+index,smiles,half-life
+23,Cc1ncsc1-c1ccc([C@H](CC(=O)NCCCCCCNC(=O)COc2c(-c3csc(N4CCOCC4)n3)ccc(F)c2F)NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@@H](NC(=O)C2(F)CC2)C(C)(C)C)cc1,0.3767
+1,COc1ccc2[nH]cc(CCNC(C)=O)c2c1,0.3333
+50,CCC(=O)O[C@]1(C(=O)SCF)[C@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C,0.01433
+5,C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4)cc32)[C@@H](CN2Cc3ccccc3C2=O)CN1,0.75
+55,O=C(COc1c(-c2csc(N3CCOCC3)n2)ccc(F)c1F)NCCCCCCNc1cccc2c1C(=O)N(C1CCC(=O)NC1=O)C2=O,0.1233
+19,C[C@@H]1CN(CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4)cc32)[C@@H](CN2CCOC[C@H]2C)CN1,0.2167
+11,CC1=C(C)C(=O)N(C[C@H]2CN[C@H](C)CN2CC(=O)N2CC(C)(C)c3ncc(Cc4ccc(F)cc4)cc32)C1,0.5333
+34,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(Nc5ccnn5C)ncc4Cl)cc3C2=O)c1,0.2167
+46,C[C@@H]1CN(CC(=O)N2CC(C)(C)c3nc(CO)c(Cc4ccc(F)cc4)cc32)[C@@H](CN2[C@H](C)COC[C@H]2C)CN1,0.2667
+31,[2H]C([2H])(O)C1(C([2H])([2H])O[C@]2(c3ccc(Cl)cc3)c3c(F)cc(C(C)(C)O)cc3C(=O)N2Cc2ccc(Cl)cn2)CC1,0.02
+32,O=C(COc1c(-c2csc(N3CCOCC3)n2)ccc(F)c1F)NCCOCCOCCNc1cccc2c1C(=O)N(C1CCC(=O)NC1=O)C2=O,0.02833
+10,CCS(=O)(=O)c1ccc2oc(-c3ccc4ccccc4c3)nc2c1,3.0
+68,C[C@H](C(=O)N[C@H](CO)c1cccc(N2CCN(C)CC2)n1)N1Cc2ccc(-c3nc(NC4CCOCC4)ncc3Cl)cc2C1=O,0.2833
+6,CCC(=O)NCC[C@@H]1CCc2ccc3c(c21)CCO3,0.83
