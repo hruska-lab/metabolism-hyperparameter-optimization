@@ -1,11 +1,13 @@
 batch_size: 1
 chemical_symbols:
-- N
-- F
+- P
+- Cl
 - S
+- N
+- H
+- F
 - C
 - O
-- Cl
 dataset: ase
 dataset_file_name: project_resources/nequip/positions/random/3A4_train_mol_positions.extxyz
 dataset_seed: 456
@@ -32,7 +34,7 @@ optimizer_name: Adam
 parity: true
 r_max: 4.0
 root: project_resources/nequip
-run_name: P450
+run_name: 3A4_rand
 seed: 123
-wandb: 'true'
-wandb_project: P450
+wandb: 'false'
+wandb_project: ''
