@@ -1,4 +1,4 @@
-## datacytochromy/\n
+## datacytochromy/\
 data-cleaning-splitting.ipynb &#8594 formátování dat ze zdrojů (databáze [ChEMBL](https://www.ebi.ac.uk/chembl/) a [PubChem](https://pubchem.ncbi.nlm.nih.gov/)), rozdělování na train-test\
 mols-visualization.ipynb &#8594 2D i 3D vizualizace některých molekul, pro správné fungování 3D modelů je potřeba stáhnout [jupyterlab_3dmol](https://github.com/3dmol/jupyterlab_3Dmol) extention\
 scikit-learn.ipynb &#8594 strojové učení pomocí modelů ze [scikit-learn](https://scikit-learn.org/stable/) na bit arrays získané ze smiles, Tanimoto podobnosti molekul\
