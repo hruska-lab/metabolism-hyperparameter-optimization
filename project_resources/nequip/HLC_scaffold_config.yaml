@@ -16,7 +16,7 @@ key_mapping:
   z: atomic_numbers
 l_max: 2
 loss_coeffs: total_energy
-max_epochs: 10
+max_epochs: 3
 model_builders:
 - SimpleIrrepsConfig
 - EnergyModel
