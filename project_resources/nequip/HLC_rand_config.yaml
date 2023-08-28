@@ -1,10 +1,10 @@
 batch_size: 1
 chemical_symbols:
-- S
-- N
-- H
-- F
 - C
+- S
+- F
+- H
+- N
 - O
 dataset: ase
 dataset_file_name: project_resources/nequip/positions/random/HLC_train_mol_positions.extxyz
@@ -22,8 +22,8 @@ model_builders:
 - EnergyModel
 - PerSpeciesRescale
 - RescaleEnergyEtc
-n_train: 5
-n_val: 5
+n_train: 120
+n_val: 31
 npz_fixed_field_keys:
 - atomic_numbers
 num_basis: 8
@@ -31,7 +31,7 @@ num_features: 16
 optimizer_name: Adam
 parity: true
 r_max: 4.0
-root: project_resources/nequip
+root: P450
 run_name: HLC_rand
 seed: 123
 wandb: 'false'

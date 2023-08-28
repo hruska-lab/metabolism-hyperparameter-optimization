@@ -1,15 +1,15 @@
 batch_size: 1
 chemical_symbols:
-- P
+- C
 - I
 - Cl
 - S
-- N
-- H
 - F
-- C
+- H
 - Br
+- N
 - B
+- P
 - O
 dataset: ase
 dataset_file_name: project_resources/nequip/positions/scaffold_splitter/RLM_train_mol_positions.extxyz
@@ -27,8 +27,8 @@ model_builders:
 - EnergyModel
 - PerSpeciesRescale
 - RescaleEnergyEtc
-n_train: 5
-n_val: 5
+n_train: 1619
+n_val: 405
 npz_fixed_field_keys:
 - atomic_numbers
 num_basis: 8
@@ -36,7 +36,7 @@ num_features: 16
 optimizer_name: Adam
 parity: true
 r_max: 4.0
-root: project_resources/nequip
+root: P450
 run_name: RLM_scaff
 seed: 123
 wandb: 'false'
