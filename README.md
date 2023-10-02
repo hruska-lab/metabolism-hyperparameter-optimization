@@ -14,3 +14,9 @@
 ## nequip
 **minimal_eng.yaml** → příkladový yaml soubor z [GitHubu NequIPu](https://github.com/mir-group/nequip/blob/main/configs/minimal_eng.yaml) a výchozí yaml soubor pro *isozyme*_*splitter*_config.yaml\
 **positions/** → soubory s daty pro strojové učení s NequIP (&#42;.extxyz) a kopie těchto souborů včetně indexů molekul (&#42;.txt)
+
+## docking_resources
+**&#42;.pdbqt** → soubory pro AutoDock Vina\
+**ligand.pdb** → mol_idx 2 ze 3A4\
+**CYP3A4_ligand_docked.pdb** → CYP3A4 v komplexu s molekulou, která má [mol_idx 2 v 3A4](https://github.com/hruska-lab/datacytochromy/blob/d20e419460797d3764795f53d120d21ceb56be1f/project_resources/3A4.csv#L3)\
+**CYP3A4_ligand_downloaded.pdb** → CYP3A4 v komplexu s midazolamem [zdroj](https://www.rcsb.org/structure/5TE8) (upraveno - ponechán pouze jeden řetězec z původních tří)
