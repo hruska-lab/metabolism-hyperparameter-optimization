@@ -1,0 +1,12 @@
+receptor = CYP3A4.pdbqt
+ligand = ligand.pdbqt
+
+center_x = 59
+center_y = 77
+center_z = 14
+
+size_x = 30
+size_y = 30
+size_z = 30
+
+exhaustiveness = 256
