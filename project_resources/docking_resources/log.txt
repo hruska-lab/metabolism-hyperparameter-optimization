@@ -12,25 +12,25 @@
 # Please see http://vina.scripps.edu for more information.      #
 #################################################################
 
-Output will be ligand_out.pdbqt
+Output will be ligand_small_out.pdbqt
 Detected 12 CPUs
 Reading input ... done.
 Setting up the scoring function ... done.
 Analyzing the binding site ... done.
-Using random seed: -396748224
+Using random seed: 643401060
 Performing search ... done.
 Refining results ... done.
 
 mode |   affinity | dist from best mode
      | (kcal/mol) | rmsd l.b.| rmsd u.b.
 -----+------------+----------+----------
-   1        -13.1      0.000      0.000
-   2        -13.0      2.198      4.322
-   3        -12.9      2.445      4.553
-   4        -12.7      2.519      5.085
-   5        -12.5      1.466      1.887
-   6        -12.4      2.384      3.177
-   7        -12.4      2.724      5.104
-   8        -12.4      2.645      7.737
-   9        -12.4      2.772      7.537
+   1         -6.2      0.000      0.000
+   2         -6.1      0.820      1.994
+   3         -5.9      1.637      1.836
+   4         -5.7      2.823      4.860
+   5         -5.7      2.712      4.996
+   6         -5.7      2.490      4.616
+   7         -5.6      2.485      5.182
+   8         -5.6      1.425      1.922
+   9         -5.5      1.365      2.331
 Writing output ... done.
