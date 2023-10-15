@@ -1,0 +1,40 @@
+append: true
+batch_size: 10
+chemical_symbols:
+- N
+- S
+- C
+- F
+- H
+- O
+dataset: ase
+dataset_file_name: positions/time_split/HLC_train_mol_positions.extxyz
+dataset_seed: 456
+key_mapping:
+  E: total_energy
+  R: pos
+  z: atomic_numbers
+l_max: 2
+learning_rate: 0.1
+loss_coeffs: total_energy
+max_epochs: 30
+model_builders:
+- SimpleIrrepsConfig
+- EnergyModel
+- PerSpeciesRescale
+- RescaleEnergyEtc
+n_train: 120
+n_val: 31
+npz_fixed_field_keys: atomic_numbers
+num_basis: 8
+num_features: 32
+num_layers: 4
+optimizer_name: Adam
+parity: false
+r_max: 0.4
+root: P450
+run_name: HLC_time
+seed: 123
+train_val_split: sequential
+validation_batch_size: 31
+wandb: false

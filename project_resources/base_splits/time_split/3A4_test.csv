@@ -1,0 +1,15 @@
+index,smiles,half-life,published
+44,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(NC5COC5)ncc4Cl)cc3C2=O)c1,0.8333,2021
+27,CC(C)(O)c1ccc2c(c1)C(=O)N(Cc1ccc(Cl)cc1)[C@@]2(OCC1(CO)CC1)c1ccc(Cl)cc1,0.08333,2021
+31,[2H]C([2H])(O)C1(C([2H])([2H])O[C@]2(c3ccc(Cl)cc3)c3c(F)cc(C(C)(C)O)cc3C(=O)N2Cc2ccc(Cl)cn2)CC1,0.02,2021
+37,CC(C)(O)c1cc(F)c2c(c1)C(=O)N(Cc1ccc(Cl)cn1)[C@@]2(OCC1(C(N)=O)CC1)c1ccc(Cl)cc1,6.0,2021
+39,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(Nc5ccnc(OC)c5)ncc4Cl)cc3C2=O)c1,0.45,2021
+38,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4ccnc(NC5CCOCC5)n4)cc3C2=O)c1,0.8167,2021
+37,CC(C)(O)c1cc(F)c2c(c1)C(=O)N(Cc1ccc(Cl)cn1)[C@@]2(OCC1(C(N)=O)CC1)c1ccc(Cl)cc1,6.0,2021
+36,CC(C)(O)c1cc(F)c2c(c1)C(=O)N(Cc1ccc(C#N)cn1)[C@@]2(OCC1(CO)CC1)c1ccc(Cl)cc1,1.05,2021
+69,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(Nc5cnn(C)n5)ncc4Cl)cc3C2=O)c1,0.3167,2021
+34,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(Nc5ccnn5C)ncc4Cl)cc3C2=O)c1,0.2167,2021
+33,COc1cc(F)cc([C@H](NC(=O)CN2Cc3ccc(-c4nc(NC5CCOCC5)ncc4Cl)cc3C2=O)C(C)O)c1,0.08333,2021
+31,[2H]C([2H])(O)C1(C([2H])([2H])O[C@]2(c3ccc(Cl)cc3)c3c(F)cc(C(C)(C)O)cc3C(=O)N2Cc2ccc(Cl)cn2)CC1,0.02,2021
+51,Cc1cccc([C@@H](CO)NC(=O)CN2Cc3ccc(-c4nc(NC5CCOCC5)ncc4Cl)cc3C2=O)c1,0.1667,2021
+70,COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ncc(-c4nc(NC5CCOCC5)ncc4Cl)cc3C2=O)c1,0.3833,2021
