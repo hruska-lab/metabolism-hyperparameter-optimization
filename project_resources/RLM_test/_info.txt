@@ -1,0 +1,1 @@
+Temporary folder for data splits of RLM which only include molecules with half-life other than 30
