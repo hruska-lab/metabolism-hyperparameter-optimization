@@ -7,4 +7,4 @@
 #SBATCH --time 24:00:00
 ml purge
 ml OpenMPI/4.1.4-GCC-11.3.0
-python ./datacytochromy/optuna-it4i.py
+python optuna-it4i.py
