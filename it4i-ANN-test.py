@@ -132,7 +132,7 @@ sampler = samplers['TPESampler']
 pruner = pruners["BasePruner"]
 while True:
     # while True is needed; if instead n_trials was large only one model would be trained
-    n_trials = 1000
+    n_trials = 5
     for _type in types:
         for splitter in splitters:
             if splitter == "rand":
