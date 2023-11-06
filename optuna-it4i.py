@@ -4,6 +4,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import time
+from optuna.storages import JournalStorage, JournalFileStorage
 from project_resources.it4i_resources import fp_from_smiles, parse_jazzy_df, HyperparamTuner
 
 
@@ -148,8 +149,13 @@ while time.time() < t_end:
 
                 for model_identifier in model_identifiers:
                     print(splitter_name, isozyme, model_identifier)
+                    lock_obj = optuna.storages.JournalFileOpenLock("./journal.log")
+
+                    storage = JournalStorage(
+                        JournalFileStorage("./project_resources/optuna/journal.log", lock_obj=lock_obj)
+                    )
                     study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
-                                                storage=f"sqlite:///project_resources/optuna/{_type}/{splitter_name}/{isozyme}/db.{model_identifier}", load_if_exists=True)
+                                                storage=storage, load_if_exists=True)
                     tuner = HyperparamTuner(model_identifier, X_train, y_train, X_test, y_test)
                     study.optimize(tuner.objective, n_trials=n_trials, n_jobs=-1)  # catch=(ValueError,)
                     joblib.dump(study, f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}.pkl")
