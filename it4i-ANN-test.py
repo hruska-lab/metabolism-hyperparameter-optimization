@@ -127,7 +127,6 @@ for splitter in splitters:
             features["jazzy"][splitter][isozyme][split] = df_features
             halflives["jazzy"][splitter][isozyme][split] = thalfs
 
-model_identifier = "ANN"
 sampler = samplers['TPESampler']
 pruner = pruners["BasePruner"]
 while True:
@@ -135,27 +134,28 @@ while True:
     n_trials = 5
     for _type in types:
         for splitter in splitters:
-            if splitter == "rand":
-                splitter_name = "random"
-            elif splitter == "scaff":
-                splitter_name = "scaffold_splitter"
-            else:
-                splitter_name = "time_split"
+            for model_identifier in model_identifiers:
+                if splitter == "rand":
+                    splitter_name = "random"
+                elif splitter == "scaff":
+                    splitter_name = "scaffold_splitter"
+                else:
+                    splitter_name = "time_split"
 
-            for isozyme in isozymes:
-                X_train = features[_type][splitter][isozyme]["train"]
-                y_train = np.array(halflives[_type][splitter][isozyme]["train"])
-                X_test = features[_type][splitter][isozyme]["test"]
-                y_test = np.array(halflives[_type][splitter][isozyme]["test"])
+                for isozyme in isozymes:
+                    X_train = features[_type][splitter][isozyme]["train"]
+                    y_train = np.array(halflives[_type][splitter][isozyme]["train"])
+                    X_test = features[_type][splitter][isozyme]["test"]
+                    y_test = np.array(halflives[_type][splitter][isozyme]["test"])
 
-                print(splitter_name, isozyme, model_identifier)
-                lock_obj = optuna.storages.JournalFileOpenLock("./journal.log")
+                    print(splitter_name, isozyme, model_identifier)
+                    lock_obj = optuna.storages.JournalFileOpenLock("./journal.log")
 
-                storage = JournalStorage(
-                    JournalFileStorage("./project_resources/optuna/journal.log", lock_obj=lock_obj)
-                )
-                study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
-                                            storage=storage, load_if_exists=True)
-                tuner = HyperparamTuner(model_identifier, X_train, y_train, X_test, y_test)
-                study.optimize(tuner.objective, n_trials=n_trials, n_jobs=-1)  # catch=(ValueError,)
-                joblib.dump(study, f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}.pkl")
+                    storage = JournalStorage(
+                        JournalFileStorage("./project_resources/optuna/journal.log", lock_obj=lock_obj)
+                    )
+                    study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
+                                                storage=storage, load_if_exists=True)
+                    tuner = HyperparamTuner(model_identifier, X_train, y_train, X_test, y_test)
+                    study.optimize(tuner.objective, n_trials=n_trials, n_jobs=-1)  # catch=(ValueError,)
+                    joblib.dump(study, f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}.pkl")
