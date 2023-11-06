@@ -1,0 +1,79 @@
+[I 2023-11-06 21:04:41,691] A new study created in Journal with name: linear
+[I 2023-11-06 21:04:41,805] Trial 0 finished with value: 0.21262338854654617 and parameters: {'alpha': 0.07901405582422885, 'l1_ratio': 0.5758148154247239}. Best is trial 0 with value: 0.21262338854654617.
+[I 2023-11-06 21:04:41,818] Trial 2 finished with value: 0.2106775723381247 and parameters: {'alpha': 0.01317039084229132, 'l1_ratio': 0.3193013979041346}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:04:41,850] Trial 1 finished with value: 0.21506008606448443 and parameters: {'alpha': 0.01252816207078404, 'l1_ratio': 0.02427206768356205}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:04:41,862] Trial 4 finished with value: 0.2170276111982016 and parameters: {'alpha': 0.0673348423220324, 'l1_ratio': 0.03348645927606231}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:04:41,862] Trial 3 finished with value: 0.2113303644268134 and parameters: {'alpha': 0.08068926605437081, 'l1_ratio': 0.9798109977345489}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:04:41,910] A new study created in Journal with name: KRR
+[I 2023-11-06 21:04:42,564] Trial 1 finished with value: 0.15259948165444182 and parameters: {'alpha': 0.0884499226514797, 'gamma': 8.522298529363395e-15, 'kernel': 'linear'}. Best is trial 1 with value: 0.15259948165444182.
+[I 2023-11-06 21:04:42,571] Trial 3 finished with value: 0.15408938511527526 and parameters: {'alpha': 0.2877077261070951, 'gamma': 3.0673370153814328e-15, 'kernel': 'linear'}. Best is trial 1 with value: 0.15259948165444182.
+[I 2023-11-06 21:04:42,575] Trial 2 finished with value: 0.15849594916334817 and parameters: {'alpha': 0.8409973045352904, 'gamma': 9.83225181312953e-15, 'kernel': 'linear'}. Best is trial 1 with value: 0.15259948165444182.
+[I 2023-11-06 21:04:42,579] Trial 0 finished with value: 0.16593782095679974 and parameters: {'alpha': 0.7438996322839166, 'gamma': 6.6970361586703185e-15, 'kernel': 'laplacian'}. Best is trial 1 with value: 0.15259948165444182.
+[I 2023-11-06 21:04:42,583] Trial 4 finished with value: 0.1524983341751076 and parameters: {'alpha': 0.7622451538446687, 'gamma': 5.737004318048872e-15, 'kernel': 'laplacian'}. Best is trial 4 with value: 0.1524983341751076.
+[I 2023-11-06 21:04:42,686] A new study created in Journal with name: GB
+[I 2023-11-06 21:04:48,480] Trial 3 finished with value: 0.174162549027167 and parameters: {'n_estimators': 50, 'learning_rate': 0.31493980343723843, 'max_depth': 5}. Best is trial 3 with value: 0.174162549027167.
+[I 2023-11-06 21:04:48,510] Trial 0 finished with value: 0.15356043091268276 and parameters: {'n_estimators': 20, 'learning_rate': 0.9036388216587748, 'max_depth': 5}. Best is trial 0 with value: 0.15356043091268276.
+[I 2023-11-06 21:04:48,523] Trial 2 finished with value: 0.1641009367194012 and parameters: {'n_estimators': 20, 'learning_rate': 0.34992138113403704, 'max_depth': 3}. Best is trial 0 with value: 0.15356043091268276.
+[I 2023-11-06 21:04:48,535] Trial 1 finished with value: 0.16711153539132553 and parameters: {'n_estimators': 10, 'learning_rate': 0.973547146879941, 'max_depth': 4}. Best is trial 0 with value: 0.15356043091268276.
+[I 2023-11-06 21:04:48,549] Trial 4 finished with value: 0.1685201062242564 and parameters: {'n_estimators': 50, 'learning_rate': 0.2182201795524848, 'max_depth': 5}. Best is trial 0 with value: 0.15356043091268276.
+[I 2023-11-06 21:04:48,596] A new study created in Journal with name: RF
+[I 2023-11-06 21:05:01,291] Trial 0 finished with value: 0.16957310177886611 and parameters: {'n_estimators': 200, 'max_features': 'auto', 'max_depth': 4}. Best is trial 0 with value: 0.16957310177886611.
+[I 2023-11-06 21:05:01,312] Trial 1 finished with value: 0.16905224215406553 and parameters: {'n_estimators': 200, 'max_features': 'log2', 'max_depth': 10}. Best is trial 1 with value: 0.16905224215406553.
+[I 2023-11-06 21:05:01,346] Trial 2 finished with value: 0.17203344594766493 and parameters: {'n_estimators': 20, 'max_features': 'sqrt', 'max_depth': 5}. Best is trial 1 with value: 0.16905224215406553.
+[I 2023-11-06 21:05:01,351] Trial 4 finished with value: 0.16065084237396307 and parameters: {'n_estimators': 500, 'max_features': 'sqrt', 'max_depth': 10}. Best is trial 4 with value: 0.16065084237396307.
+[I 2023-11-06 21:05:01,361] Trial 3 finished with value: 0.16742402654199162 and parameters: {'n_estimators': 20, 'max_features': 'sqrt', 'max_depth': 2}. Best is trial 4 with value: 0.16065084237396307.
+[I 2023-11-06 21:05:01,410] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 21:05:08,854] Trial 280 finished with value: 0.27422499372646336 and parameters: {'learning_rate_init': 0.04399952884454785, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 21:05:09,009] Trial 283 finished with value: 0.2525625030612099 and parameters: {'learning_rate_init': 0.0017767768176420434, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 21:05:09,153] Trial 282 finished with value: 0.2446281581459505 and parameters: {'learning_rate_init': 0.024860368767657785, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 21:05:09,375] Trial 284 finished with value: 0.25818981917330974 and parameters: {'learning_rate_init': 0.023534689217798162, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 21:05:09,559] Trial 281 finished with value: 0.22469251317347946 and parameters: {'learning_rate_init': 0.02415603287646527, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 21:05:09,610] Using an existing study with name 'linear' instead of creating a new one.
+[I 2023-11-06 21:05:09,786] Trial 5 finished with value: 0.25706377934026314 and parameters: {'alpha': 0.08327194328180604, 'l1_ratio': 0.8439656948250007}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:05:09,806] Trial 7 finished with value: 0.2571481125362393 and parameters: {'alpha': 0.014680980367086866, 'l1_ratio': 0.3386331072444061}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:05:09,811] Trial 6 finished with value: 0.25703181539146785 and parameters: {'alpha': 0.018058960820394425, 'l1_ratio': 0.048231381107729177}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:05:09,816] Trial 8 finished with value: 0.25705482012677766 and parameters: {'alpha': 0.08141147344526131, 'l1_ratio': 0.9565875076103213}. Best is trial 2 with value: 0.2106775723381247.
+[I 2023-11-06 21:05:09,817] Trial 9 finished with value: 0.25700304435947396 and parameters: {'alpha': 0.053931700294606776, 'l1_ratio': 0.8160826232114301}. Best is trial 2 with value: 0.2106775723381247.
+     56, [63, 'CC(C)(O)c1cc(F)c2c(c1)C(=O)N(Cc1ccc(Cl)cn1)[C@@]2(OCC1(O)CC1)c1ccc(Cl)cc1', 0.9999999999999998, 13.1753, 1.4177, 11.3044, -7.3559, -125.8906, -119.4889]
+     14, [23, 'Cc1ncsc1-c1ccc([C@H](CC(=O)NCCCCCCNC(=O)COc2c(-c3csc(N4CCOCC4)n3)ccc(F)c2F)NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@@H](NC(=O)C2(F)CC2)C(C)(C)C)cc1', 0.0622624201077031, 28.4327, 3.274, 23.4872, -4.0348, -286.1545, -257.0326]
+     removed index 325 corresponding to NaN
+     removed index 678 corresponding to NaN
+     removed index 725 corresponding to NaN
+     removed index 1053 corresponding to NaN
+     1417, [439, 'CN1C(=O)c2ccccc2[S@+]([O-])c2ccc(C(=O)NCc3ccc(Br)cc3)cc21', 0.4181064270905321, 10.3104, 0.7256, 7.5559, -14.2816, -86.2027, -96.3091]
+     356, [66, 'CC(=O)c1c(C)[nH]c(C(=O)Nc2cccc([S+](=O)([O-])Nc3cccc(C#N)c3)c2)c1C', 0.8327574291637871, 10.4683, 2.4345, 9.1374, -15.7732, -116.2014, -124.8128]
+     151, [36, 'N#Cc1ccc(CN2CCC(N3CCNC3=O)CC2)cc1', 0.7615658362989324, 8.7086, 0.7824, 4.7992, -7.9813, -74.8159, -75.7409]
+     38, [185, 'c1ccc(Nc2ncc(-c3cncnc3)c3c2OCC3)cc1', 1.0, 7.6502, 0.7908, 4.359, -17.5939, -69.2221, -78.0498]
+     56, [30, 'COc1cccc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(NC5CCOCC5)ncc4Cl)cc3C2=O)c1', 0.0147310164129507, 16.2478, 2.1011, 12.7179, -10.0882, -164.348, -156.2467]
+     14, [29, 'O=C1CCC(N2C(=O)c3cccc(NCCOCCOCCNC(=O)c4ccc5c(c4)nc(Nc4cccc(Cl)c4)c4ccncc45)c3C2=O)C(=O)N1', 0.0400167292931223, 18.7621, 3.2764, 15.83, -24.805, -206.8013, -216.3639]
+     removed index 627 corresponding to NaN
+     removed index 628 corresponding to NaN
+     removed index 1065 corresponding to NaN
+     removed index 1109 corresponding to NaN
+     1417, [41, 'CNC(=O)C1CCN(c2nc(-c3ccc(Br)cc3)cs2)CC1', 0.8728403593642018, 8.8766, 0.5795, 5.4967, -5.3755, -74.4969, -72.179]
+     356, [675, 'O=c1cc(CN2CCCN(c3ccc(C(F)(F)F)cn3)CC2)nc2ccccn12', 0.2695231513476157, 11.6693, 0.0, 8.7277, -7.9637, -109.4358, -87.089]
+     151, [9, 'Cc1cc(F)ccc1OC1CN(Cc2ccc(C#N)cc2)C1', 0.2473309608540924, 8.9224, 0.0, 4.8259, -11.1508, -61.3626, -68.7406]
+     38, [20, 'Fc1cccc(-c2cnc([C@@H]3COCCN3Cc3cnc[nH]3)[nH]2)c1', 0.4599644128113878, 8.6917, 1.4354, 6.9778, -10.2452, -97.3783, -101.0987]
+     56, [25, 'O=C(NC1CCN(CCc2c[nH]c3ccccc23)CC1)c1ccccc1', 0.0439188969472542, 9.3803, 1.1336, 4.4019, -10.2484, -68.9045, -79.1529]
+     14, [44, 'COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(NC5COC5)ncc4Cl)cc3C2=O)c1', 0.1384047171537122, 15.1005, 2.4247, 13.7023, -11.5729, -168.823, -163.9418]
+     removed index 1085 corresponding to NaN
+     1420, [865, 'O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12', 0.1807187284035936, 4.8109, 4.2098, 9.0356, -15.906, -100.4349, -116.3409]
+     removed index 149 corresponding to NaN
+     removed index 152 corresponding to NaN
+     removed index 165 corresponding to NaN
+     353, [963, 'COc1cc(C(=O)Nc2nc(-c3ccccc3)cs2)ccc1NS(=O)(=O)c1ccc(C)cc1', 0.1485832757429163, 10.6471, 1.8191, 7.4917, -18.2286, -98.1729, -109.0432]
+     151, [107, 'O=C(Nc1cnc(-c2ccccc2)nc1)c1ccccc1', 1.0, 7.4704, 0.6471, 3.9158, -15.3358, -60.546, -70.5429]
+     38, [104, 'Cc1ccccc1-c1[nH]nc2ncc(-c3ccccc3)nc12', 0.7215302491103203, 6.5793, 0.7599, 2.616, -18.8676, -48.3099, -58.8456]
+random 3A4 linear
+random 3A4 KRR
+random 3A4 GB
+random 3A4 RF
+random 3A4 ANN
+random RLM linear
+Traceback (most recent call last):
+  File "/home/it4i-majerl/Documents/datacytochromy/optuna-it4i.py", line 161, in <module>
+    joblib.dump(study, f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}.pkl")
+  File "/home/it4i-majerl/.local/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 552, in dump
+    with open(filename, 'wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './project_resources/optuna/morgan/random/RLM/linear.pkl'
