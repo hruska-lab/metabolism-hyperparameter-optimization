@@ -149,10 +149,10 @@ while time.time() < t_end:
 
                 for model_identifier in model_identifiers:
                     print(splitter_name, isozyme, model_identifier)
-                    lock_obj = optuna.storages.JournalFileOpenLock("./journal.log")
+                    lock_obj = optuna.storages.JournalFileOpenLock(f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}_journal.log")
 
                     storage = JournalStorage(
-                        JournalFileStorage("./project_resources/optuna/journal.log", lock_obj=lock_obj)
+                        JournalFileStorage(f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}_journal.log", lock_obj=lock_obj)
                     )
                     study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
                                                 storage=storage, load_if_exists=True)
