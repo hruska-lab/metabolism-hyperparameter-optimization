@@ -131,7 +131,7 @@ pruner = pruners["BasePruner"]
 t_end = time.time() + (60 * 60 * 24)
 while time.time() < t_end:
     # while loop is needed; if instead n_trials was large only one model would be trained
-    n_trials = 5
+    n_trials = 1
     for _type in types:
         for splitter in splitters:
             if splitter == "rand":
