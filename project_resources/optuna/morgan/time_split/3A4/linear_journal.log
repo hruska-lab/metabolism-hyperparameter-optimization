@@ -1,0 +1,6 @@
+{"op_code": 0, "worker_id": "46732f5d-0c14-4a54-83a3-9847c28323fc-47614746832704", "study_name": "linear", "directions": [1]}
+{"op_code": 4, "worker_id": "46732f5d-0c14-4a54-83a3-9847c28323fc-47615450679040", "study_id": 0, "datetime_start": "2023-11-07T07:02:33.549445"}
+{"op_code": 8, "worker_id": "46732f5d-0c14-4a54-83a3-9847c28323fc-47615450679040", "trial_id": 0, "user_attr": {"fit_intercept": true}}
+{"op_code": 5, "worker_id": "46732f5d-0c14-4a54-83a3-9847c28323fc-47615450679040", "trial_id": 0, "param_name": "alpha", "param_value_internal": 0.03951075987454764, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 1e-05, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "46732f5d-0c14-4a54-83a3-9847c28323fc-47615450679040", "trial_id": 0, "param_name": "l1_ratio", "param_value_internal": 0.03600539452828899, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.0, \"high\": 1.0, \"log\": false}}"}
+{"op_code": 6, "worker_id": "46732f5d-0c14-4a54-83a3-9847c28323fc-47615450679040", "trial_id": 0, "state": 1, "values": [0.1270292187149268], "datetime_complete": "2023-11-07T07:02:33.579407"}

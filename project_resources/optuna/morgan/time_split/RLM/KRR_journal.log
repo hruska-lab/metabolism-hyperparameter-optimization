@@ -1,0 +1,6 @@
+{"op_code": 0, "worker_id": "0447474c-029d-4430-aaa3-5d6d05bba256-47614746832704", "study_name": "KRR", "directions": [1]}
+{"op_code": 4, "worker_id": "0447474c-029d-4430-aaa3-5d6d05bba256-47615450679040", "study_id": 0, "datetime_start": "2023-11-07T07:02:39.504086"}
+{"op_code": 5, "worker_id": "0447474c-029d-4430-aaa3-5d6d05bba256-47615450679040", "trial_id": 0, "param_name": "alpha", "param_value_internal": 0.8906734794979422, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.0001, \"high\": 1.0, \"log\": false}}"}
+{"op_code": 5, "worker_id": "0447474c-029d-4430-aaa3-5d6d05bba256-47615450679040", "trial_id": 0, "param_name": "gamma", "param_value_internal": 1.1624845642898008e-15, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.0, \"high\": 1e-14, \"log\": false}}"}
+{"op_code": 5, "worker_id": "0447474c-029d-4430-aaa3-5d6d05bba256-47615450679040", "trial_id": 0, "param_name": "kernel", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [\"linear\", \"laplacian\", \"rbf\"]}}"}
+{"op_code": 6, "worker_id": "0447474c-029d-4430-aaa3-5d6d05bba256-47615450679040", "trial_id": 0, "state": 1, "values": [0.25033148386481935], "datetime_complete": "2023-11-07T07:02:40.442280"}

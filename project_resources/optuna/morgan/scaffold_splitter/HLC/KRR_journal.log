@@ -1,0 +1,6 @@
+{"op_code": 0, "worker_id": "a78d9db7-d89a-4b6a-a467-9c8da2fc7a5f-47614746832704", "study_name": "KRR", "directions": [1]}
+{"op_code": 4, "worker_id": "a78d9db7-d89a-4b6a-a467-9c8da2fc7a5f-47615450679040", "study_id": 0, "datetime_start": "2023-11-07T07:02:24.913307"}
+{"op_code": 5, "worker_id": "a78d9db7-d89a-4b6a-a467-9c8da2fc7a5f-47615450679040", "trial_id": 0, "param_name": "alpha", "param_value_internal": 0.9732639109237403, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.0001, \"high\": 1.0, \"log\": false}}"}
+{"op_code": 5, "worker_id": "a78d9db7-d89a-4b6a-a467-9c8da2fc7a5f-47615450679040", "trial_id": 0, "param_name": "gamma", "param_value_internal": 3.458013238901925e-16, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.0, \"high\": 1e-14, \"log\": false}}"}
+{"op_code": 5, "worker_id": "a78d9db7-d89a-4b6a-a467-9c8da2fc7a5f-47615450679040", "trial_id": 0, "param_name": "kernel", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [\"linear\", \"laplacian\", \"rbf\"]}}"}
+{"op_code": 6, "worker_id": "a78d9db7-d89a-4b6a-a467-9c8da2fc7a5f-47615450679040", "trial_id": 0, "state": 1, "values": [0.28129290813263835], "datetime_complete": "2023-11-07T07:02:24.968471"}

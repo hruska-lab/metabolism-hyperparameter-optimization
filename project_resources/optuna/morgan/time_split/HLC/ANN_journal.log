@@ -1,0 +1,5 @@
+{"op_code": 0, "worker_id": "b4c39c35-0560-4d18-aa56-ea085070515c-47614746832704", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "b4c39c35-0560-4d18-aa56-ea085070515c-47615450679040", "study_id": 0, "datetime_start": "2023-11-07T07:04:00.589164"}
+{"op_code": 5, "worker_id": "b4c39c35-0560-4d18-aa56-ea085070515c-47615450679040", "trial_id": 0, "param_name": "learning_rate_init", "param_value_internal": 0.08804284056601855, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "b4c39c35-0560-4d18-aa56-ea085070515c-47615450679040", "trial_id": 0, "param_name": "hidden_layer_sizes", "param_value_internal": 7, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "b4c39c35-0560-4d18-aa56-ea085070515c-47615450679040", "trial_id": 0, "state": 1, "values": [0.32675560518790286], "datetime_complete": "2023-11-07T07:04:04.222218"}
