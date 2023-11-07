@@ -1,4 +1,4 @@
-name: soc
+name: it4i_env
 channels:
   - defaults
 dependencies:
