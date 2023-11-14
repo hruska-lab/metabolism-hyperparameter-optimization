@@ -1,0 +1,2 @@
+[I 2023-11-06 17:34:02,837] A new study created in Journal with name: ANN
+slurmstepd: error: *** JOB 329456 ON cn623 CANCELLED AT 2023-11-06T18:04:00 DUE TO TIME LIMIT ***

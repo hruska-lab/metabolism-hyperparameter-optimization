@@ -1,9 +1,9 @@
-# file for executing optuna code on it4i
 import optuna
 import joblib
 import numpy as np
 import pandas as pd
 import time
+from concurrent.futures import ThreadPoolExecutor
 from optuna.storages import JournalStorage, JournalFileStorage
 from project_resources.it4i_resources import fp_from_smiles, parse_jazzy_df, HyperparamTuner
 
@@ -126,36 +126,42 @@ for splitter in splitters:
             features["jazzy"][splitter][isozyme][split] = df_features
             halflives["jazzy"][splitter][isozyme][split] = thalfs
 
-sampler = samplers['TPESampler']
-pruner = pruners["BasePruner"]
-t_end = time.time() + (60 * 60 * 24)
-while time.time() < t_end:
-    # while loop is needed; if instead n_trials was large only one model would be trained
-    n_trials = 1
-    for _type in types:
-        for splitter in splitters:
-            if splitter == "rand":
-                splitter_name = "random"
-            elif splitter == "scaff":
-                splitter_name = "scaffold_splitter"
-            else:
-                splitter_name = "time_split"
+with ThreadPoolExecutor() as executor:
+    futures = []
 
-            for isozyme in isozymes:
-                X_train = features[_type][splitter][isozyme]["train"]
-                y_train = np.array(halflives[_type][splitter][isozyme]["train"])
-                X_test = features[_type][splitter][isozyme]["test"]
-                y_test = np.array(halflives[_type][splitter][isozyme]["test"])
+    sampler = samplers['TPESampler']
+    pruner = pruners["HyperbandPruner"]
+    t_end = time.time() + (60 * 60 * 24)
+    while time.time() < t_end:
+        # while loop is needed; if instead n_trials was large only one model would be trained
+        n_trials = 1
+        for _type in types:
+            for splitter in splitters:
+                if splitter == "rand":
+                    splitter_name = "random"
+                elif splitter == "scaff":
+                    splitter_name = "scaffold_splitter"
+                else:
+                    splitter_name = "time_split"
 
-                for model_identifier in model_identifiers:
-                    print(splitter_name, isozyme, model_identifier)
-                    lock_obj = optuna.storages.JournalFileOpenLock(f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}_journal.log")
+                for isozyme in isozymes:
+                    X_train = features[_type][splitter][isozyme]["train"]
+                    y_train = np.array(halflives[_type][splitter][isozyme]["train"])
+                    X_test = features[_type][splitter][isozyme]["test"]
+                    y_test = np.array(halflives[_type][splitter][isozyme]["test"])
 
-                    storage = JournalStorage(
-                        JournalFileStorage(f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}_journal.log", lock_obj=lock_obj)
-                    )
-                    study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
-                                                storage=storage, load_if_exists=True)
-                    tuner = HyperparamTuner(model_identifier, X_train, y_train, X_test, y_test)
-                    study.optimize(tuner.objective, n_trials=n_trials, n_jobs=-1)  # catch=(ValueError,)
-                    joblib.dump(study, f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}.pkl")
+                    for model_identifier in model_identifiers:
+                        print(splitter_name, isozyme, model_identifier)
+                        lock_obj = optuna.storages.JournalFileOpenLock(f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}_journal.log")
+
+                        storage = JournalStorage(
+                            JournalFileStorage(f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}_journal.log", lock_obj=lock_obj)
+                        )
+                        study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
+                                                    storage=storage, load_if_exists=True)
+                        
+                        tuner = HyperparamTuner(model_identifier, X_train, y_train, X_test, y_test)
+                        futures.append(executor.submit(study.optimize, tuner.objective, n_trials=n_trials))
+                        joblib.dump(study, f"./project_resources/optuna/{_type}/{splitter_name}/{isozyme}/{model_identifier}.pkl")
+    for future in futures:
+        future.result()

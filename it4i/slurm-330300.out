@@ -1,0 +1,332 @@
+[I 2023-11-06 19:32:39,482] A new study created in Journal with name: ANN
+[I 2023-11-06 19:32:47,018] Trial 2 finished with value: 0.2223836385962259 and parameters: {'learning_rate_init': 0.049054369700584, 'hidden_layer_sizes': [20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:32:47,115] Trial 4 finished with value: 0.23735224352101267 and parameters: {'learning_rate_init': 0.010505709431660099, 'hidden_layer_sizes': [5, 5]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:32:47,401] Trial 3 finished with value: 0.2584618327577552 and parameters: {'learning_rate_init': 0.09617625356684956, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:32:47,427] Trial 0 finished with value: 0.2971122391254412 and parameters: {'learning_rate_init': 0.0837960563813386, 'hidden_layer_sizes': [5]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:32:47,502] Trial 1 finished with value: 0.2313897747807705 and parameters: {'learning_rate_init': 0.003365669963327598, 'hidden_layer_sizes': [5]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:32:47,508] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:34:36,313] Trial 9 finished with value: 0.29035383820719446 and parameters: {'learning_rate_init': 0.0955452708107439, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:36,566] Trial 7 finished with value: 0.28814225766798846 and parameters: {'learning_rate_init': 0.0459660262274339, 'hidden_layer_sizes': [20, 20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:37,043] Trial 8 finished with value: 0.29131784646385717 and parameters: {'learning_rate_init': 0.08689882391749737, 'hidden_layer_sizes': [5]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:37,555] Trial 6 finished with value: 0.2942771597049695 and parameters: {'learning_rate_init': 0.0370538293245593, 'hidden_layer_sizes': [20, 20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:38,972] Trial 5 finished with value: 0.2917742363624955 and parameters: {'learning_rate_init': 0.07784547651977478, 'hidden_layer_sizes': [20, 20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:38,979] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:34:51,315] Trial 12 finished with value: 0.35235477346324284 and parameters: {'learning_rate_init': 0.06091795228062504, 'hidden_layer_sizes': [20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:51,421] Trial 10 finished with value: 0.35110752093997527 and parameters: {'learning_rate_init': 0.06174680758462861, 'hidden_layer_sizes': [20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:51,901] Trial 13 finished with value: 0.3467335755104291 and parameters: {'learning_rate_init': 0.06494739223108713, 'hidden_layer_sizes': [20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:51,983] Trial 14 finished with value: 0.33028049598740744 and parameters: {'learning_rate_init': 0.06631414657449561, 'hidden_layer_sizes': [20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:52,351] Trial 11 finished with value: 0.32036603668071567 and parameters: {'learning_rate_init': 0.06372800411872612, 'hidden_layer_sizes': [20]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:52,359] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:34:59,186] Trial 16 finished with value: 0.26843207002858355 and parameters: {'learning_rate_init': 0.009998985379073112, 'hidden_layer_sizes': [50]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:59,535] Trial 17 finished with value: 0.26620862512381843 and parameters: {'learning_rate_init': 0.0014347410503149224, 'hidden_layer_sizes': [50]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:59,616] Trial 19 finished with value: 0.26900448361031754 and parameters: {'learning_rate_init': 0.007411511549948409, 'hidden_layer_sizes': [10]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:59,764] Trial 18 finished with value: 0.2459300867088241 and parameters: {'learning_rate_init': 0.004708789504219324, 'hidden_layer_sizes': [50, 50]}. Best is trial 2 with value: 0.2223836385962259.
+[I 2023-11-06 19:34:59,902] Trial 15 finished with value: 0.21298519029399185 and parameters: {'learning_rate_init': 0.004543690977591501, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:34:59,912] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:36:31,325] Trial 21 finished with value: 0.27139780707766425 and parameters: {'learning_rate_init': 0.026000792079168385, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:31,410] Trial 20 finished with value: 0.26270456349512183 and parameters: {'learning_rate_init': 0.02459764695850145, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:33,925] Trial 22 finished with value: 0.26444767947641273 and parameters: {'learning_rate_init': 0.022821992614110238, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:35,147] Trial 24 finished with value: 0.2682515852703136 and parameters: {'learning_rate_init': 0.026621397412675083, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:35,467] Trial 23 finished with value: 0.27267901627960894 and parameters: {'learning_rate_init': 0.026238332259708973, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:35,476] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:36:47,095] Trial 28 finished with value: 0.3317598437591028 and parameters: {'learning_rate_init': 0.014859193875803173, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:47,614] Trial 27 finished with value: 0.33618449048234184 and parameters: {'learning_rate_init': 0.016584870219076016, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:48,743] Trial 26 finished with value: 0.330900038941176 and parameters: {'learning_rate_init': 0.016249629742953235, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:48,801] Trial 25 finished with value: 0.3152192898107391 and parameters: {'learning_rate_init': 0.016193922670666584, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:49,279] Trial 29 finished with value: 0.34149982049171324 and parameters: {'learning_rate_init': 0.016155941381172517, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:49,290] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:36:56,665] Trial 30 finished with value: 0.2695588006185093 and parameters: {'learning_rate_init': 0.03287264742024676, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:56,700] Trial 33 finished with value: 0.2912547265435818 and parameters: {'learning_rate_init': 0.044712677206118524, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:56,755] Trial 34 finished with value: 0.22809500737777824 and parameters: {'learning_rate_init': 0.03543695021245741, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:56,958] Trial 31 finished with value: 0.2807740359032429 and parameters: {'learning_rate_init': 0.04061225980240438, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:57,067] Trial 32 finished with value: 0.2531640355189521 and parameters: {'learning_rate_init': 0.0023439916068265527, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:36:57,078] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:38:25,818] Trial 38 finished with value: 0.2928271980355757 and parameters: {'learning_rate_init': 0.05452527899042653, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:27,469] Trial 37 finished with value: 0.29028364380133276 and parameters: {'learning_rate_init': 0.0339356313177678, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:28,873] Trial 35 finished with value: 0.29166276798379537 and parameters: {'learning_rate_init': 0.05259509530614759, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:29,848] Trial 39 finished with value: 0.2924681629481336 and parameters: {'learning_rate_init': 0.05356711209751597, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:29,875] Trial 36 finished with value: 0.2966786687982103 and parameters: {'learning_rate_init': 0.052257250091485886, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:29,886] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:38:43,498] Trial 42 finished with value: 0.3659580652726175 and parameters: {'learning_rate_init': 0.008307429037662661, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:44,411] Trial 40 finished with value: 0.33664285777820996 and parameters: {'learning_rate_init': 0.00902161985836315, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:44,606] Trial 41 finished with value: 0.33093352758999073 and parameters: {'learning_rate_init': 0.008237864378629091, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:45,062] Trial 44 finished with value: 0.3348665630336248 and parameters: {'learning_rate_init': 0.00800741962676545, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:45,293] Trial 43 finished with value: 0.32676028339834245 and parameters: {'learning_rate_init': 0.008648301251171699, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:45,305] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:38:48,772] Trial 48 finished with value: 4.010610961529909 and parameters: {'learning_rate_init': 0.0032518573096846602, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:48,794] Trial 49 finished with value: 4.751702931826586 and parameters: {'learning_rate_init': 0.0011435619440907374, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:49,189] Trial 47 finished with value: 4.3332151885776 and parameters: {'learning_rate_init': 0.002154554394789337, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:49,299] Trial 46 finished with value: 4.312174556797591 and parameters: {'learning_rate_init': 0.002990220617549828, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:49,475] Trial 45 finished with value: 4.569739840180786 and parameters: {'learning_rate_init': 0.0021303545464248144, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:38:49,489] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:39:49,051] Trial 51 finished with value: 0.2666287814076466 and parameters: {'learning_rate_init': 0.020975161435746223, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:49,438] Trial 52 finished with value: 0.2661688583471844 and parameters: {'learning_rate_init': 0.013296351143864758, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:49,633] Trial 50 finished with value: 0.26737858275606036 and parameters: {'learning_rate_init': 0.013646235049188927, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:50,388] Trial 54 finished with value: 0.2595737255593902 and parameters: {'learning_rate_init': 0.012110565565807687, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:53,317] Trial 53 finished with value: 0.25791825333886526 and parameters: {'learning_rate_init': 0.02126316388304371, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:53,331] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:39:57,218] Trial 59 finished with value: 2.8938805971732506 and parameters: {'learning_rate_init': 0.006061552083241141, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:57,414] Trial 55 finished with value: 2.20628591992577 and parameters: {'learning_rate_init': 0.006601434614977908, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:58,562] Trial 57 finished with value: 1.8197214551659713 and parameters: {'learning_rate_init': 0.0053604330634595704, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:58,787] Trial 56 finished with value: 1.8365845660646105 and parameters: {'learning_rate_init': 0.004849744975631361, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:59,418] Trial 58 finished with value: 1.226642032778739 and parameters: {'learning_rate_init': 0.019274493987961702, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:39:59,433] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:40:02,690] Trial 62 finished with value: 4.269688139888738 and parameters: {'learning_rate_init': 0.011458216354459708, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:02,887] Trial 60 finished with value: 3.759212665770723 and parameters: {'learning_rate_init': 0.010713184831852835, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:03,662] Trial 64 finished with value: 3.1801831469946094 and parameters: {'learning_rate_init': 0.011287793005631697, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:04,077] Trial 61 finished with value: 3.8612902160957496 and parameters: {'learning_rate_init': 0.010756717073005826, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:04,151] Trial 63 finished with value: 2.5782743892266646 and parameters: {'learning_rate_init': 0.011359186858531413, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:04,167] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:40:51,520] Trial 68 finished with value: 0.253333818806388 and parameters: {'learning_rate_init': 0.005992664213891877, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:56,974] Trial 65 finished with value: 0.256574980228719 and parameters: {'learning_rate_init': 0.00481064284624735, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:57,467] Trial 67 finished with value: 0.25594951220692647 and parameters: {'learning_rate_init': 0.0010096655624133527, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:57,727] Trial 66 finished with value: 0.2568203863859078 and parameters: {'learning_rate_init': 0.004545485623350961, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:58,601] Trial 69 finished with value: 0.25550167427779186 and parameters: {'learning_rate_init': 0.0010215619218179558, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:40:58,617] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:41:01,549] Trial 73 finished with value: 2.759929770557516 and parameters: {'learning_rate_init': 0.02900674107261447, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:02,282] Trial 72 finished with value: 3.494291770000624 and parameters: {'learning_rate_init': 0.027679424675028156, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:03,507] Trial 70 finished with value: 1.7870307583195066 and parameters: {'learning_rate_init': 0.014212190279500256, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:03,731] Trial 71 finished with value: 1.497058505757698 and parameters: {'learning_rate_init': 0.01657777128765699, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:04,355] Trial 74 finished with value: 1.6051657731348439 and parameters: {'learning_rate_init': 0.017409640661716443, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:04,372] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:41:07,071] Trial 76 finished with value: 3.6133724208674294 and parameters: {'learning_rate_init': 0.006712775951229852, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:07,472] Trial 77 finished with value: 6.324013423902329 and parameters: {'learning_rate_init': 0.006584097000949974, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:08,280] Trial 78 finished with value: 3.847558807759242 and parameters: {'learning_rate_init': 0.0058944895402033605, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:08,342] Trial 75 finished with value: 3.9938506210287343 and parameters: {'learning_rate_init': 0.00642412916942468, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:09,551] Trial 79 finished with value: 3.3409827270530976 and parameters: {'learning_rate_init': 0.007003290067624062, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:41:09,568] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:42:00,765] Trial 80 finished with value: 0.2599469584543163 and parameters: {'learning_rate_init': 0.02341912297617943, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:03,168] Trial 81 finished with value: 0.2622711680898077 and parameters: {'learning_rate_init': 0.024327318318386595, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:05,881] Trial 84 finished with value: 0.2693533039080502 and parameters: {'learning_rate_init': 0.03749459183992632, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:06,122] Trial 82 finished with value: 0.25916898021468615 and parameters: {'learning_rate_init': 0.03988119757624947, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:06,361] Trial 83 finished with value: 0.2620326346344357 and parameters: {'learning_rate_init': 0.018658983057645892, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:06,379] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:42:10,849] Trial 86 finished with value: 2.4757991722380743 and parameters: {'learning_rate_init': 0.003580400599785464, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:10,926] Trial 88 finished with value: 2.3058823744117807 and parameters: {'learning_rate_init': 0.003676867181172774, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:11,041] Trial 85 finished with value: 1.9504990026830544 and parameters: {'learning_rate_init': 0.0040933459792376016, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:11,229] Trial 89 finished with value: 1.7727594849945614 and parameters: {'learning_rate_init': 0.0038531983138699907, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:11,517] Trial 87 finished with value: 2.334475077576788 and parameters: {'learning_rate_init': 0.0010767405469876287, 'hidden_layer_sizes': [50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:11,715] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:42:19,405] Trial 90 finished with value: 0.24653187567272497 and parameters: {'learning_rate_init': 0.008455813390603147, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:19,695] Trial 92 finished with value: 0.2448440147757874 and parameters: {'learning_rate_init': 0.00928731583922467, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:19,732] Trial 94 finished with value: 0.2648596876074055 and parameters: {'learning_rate_init': 0.008620689895614892, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:19,854] Trial 93 finished with value: 0.23586420491903956 and parameters: {'learning_rate_init': 0.009590129595176354, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:19,950] Trial 91 finished with value: 0.2578530929999137 and parameters: {'learning_rate_init': 0.00974221147038321, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:42:19,974] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:43:57,153] Trial 99 finished with value: 0.28747868712843433 and parameters: {'learning_rate_init': 0.014574644588555626, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:43:58,912] Trial 95 finished with value: 0.29099482464278364 and parameters: {'learning_rate_init': 0.013256227098600255, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:43:58,986] Trial 98 finished with value: 0.2947799901120443 and parameters: {'learning_rate_init': 0.01423903919158865, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:43:59,799] Trial 96 finished with value: 0.2906536860503483 and parameters: {'learning_rate_init': 0.01421100659175427, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:00,680] Trial 97 finished with value: 0.29247249659198143 and parameters: {'learning_rate_init': 0.014926340149480605, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:00,700] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:44:13,750] Trial 101 finished with value: 0.32774171028315274 and parameters: {'learning_rate_init': 0.00963801158319503, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:13,999] Trial 100 finished with value: 0.33771337249853767 and parameters: {'learning_rate_init': 0.00898075608290767, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:14,233] Trial 103 finished with value: 0.32565883885167896 and parameters: {'learning_rate_init': 0.009820845641024098, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:14,647] Trial 102 finished with value: 0.3220999793483686 and parameters: {'learning_rate_init': 0.008916068950766874, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:14,869] Trial 104 finished with value: 0.31297014494687736 and parameters: {'learning_rate_init': 0.009976653003219201, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:14,892] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:44:22,908] Trial 109 finished with value: 0.23609781753011813 and parameters: {'learning_rate_init': 0.011864629177891764, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:23,115] Trial 106 finished with value: 0.24636303083023692 and parameters: {'learning_rate_init': 0.012791731663684958, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:23,142] Trial 105 finished with value: 0.24917136612712829 and parameters: {'learning_rate_init': 0.012578421556938687, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:23,270] Trial 107 finished with value: 0.23813147035236168 and parameters: {'learning_rate_init': 0.01184238213237861, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:23,401] Trial 108 finished with value: 0.24939119043801206 and parameters: {'learning_rate_init': 0.012336883337802815, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:44:23,424] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:46:05,028] Trial 112 finished with value: 0.268927572331133 and parameters: {'learning_rate_init': 0.02196380298873274, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:05,414] Trial 113 finished with value: 0.26495974977805964 and parameters: {'learning_rate_init': 0.01866597642634453, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:07,583] Trial 110 finished with value: 0.26535595673395024 and parameters: {'learning_rate_init': 0.01957648040448807, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:08,159] Trial 114 finished with value: 0.2672628583320682 and parameters: {'learning_rate_init': 0.019119967601835222, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:08,478] Trial 111 finished with value: 0.27011205878581096 and parameters: {'learning_rate_init': 0.01908540582720918, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:08,503] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:46:21,476] Trial 117 finished with value: 0.32785029125727716 and parameters: {'learning_rate_init': 0.016282637704779113, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:21,591] Trial 118 finished with value: 0.3215315549769883 and parameters: {'learning_rate_init': 0.01577430328720216, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:21,799] Trial 116 finished with value: 0.3275505284109325 and parameters: {'learning_rate_init': 0.007895529720863603, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:21,910] Trial 115 finished with value: 0.3149555383539498 and parameters: {'learning_rate_init': 0.01587752204140233, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:22,409] Trial 119 finished with value: 0.3051555430973784 and parameters: {'learning_rate_init': 0.01644432693622866, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:22,432] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:46:30,644] Trial 124 finished with value: 0.2603609713868973 and parameters: {'learning_rate_init': 0.012572525350488748, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:30,844] Trial 122 finished with value: 0.28622194885084945 and parameters: {'learning_rate_init': 0.01128607408915399, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:31,058] Trial 123 finished with value: 0.2731516669185759 and parameters: {'learning_rate_init': 0.011809103704077258, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:31,116] Trial 120 finished with value: 0.24686033788438147 and parameters: {'learning_rate_init': 0.048491374718555275, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:31,183] Trial 121 finished with value: 0.27302446499513294 and parameters: {'learning_rate_init': 0.011580015365257879, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:46:31,232] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:48:04,740] Trial 125 finished with value: 0.2928713753879777 and parameters: {'learning_rate_init': 0.05730756112865666, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:04,922] Trial 128 finished with value: 0.29157945280745046 and parameters: {'learning_rate_init': 0.050373744991666955, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:06,451] Trial 126 finished with value: 0.2883700982608642 and parameters: {'learning_rate_init': 0.04770304726160807, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:06,821] Trial 127 finished with value: 0.29101516211739537 and parameters: {'learning_rate_init': 0.04999481809927882, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:07,727] Trial 129 finished with value: 0.29250608433217784 and parameters: {'learning_rate_init': 0.04394549248287205, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:07,752] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:48:22,767] Trial 130 finished with value: 0.3573895385674178 and parameters: {'learning_rate_init': 0.005487666570235558, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:23,664] Trial 132 finished with value: 0.3485169084786925 and parameters: {'learning_rate_init': 0.007673559822471257, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:23,804] Trial 134 finished with value: 0.3288769246996486 and parameters: {'learning_rate_init': 0.0054435130337292265, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:23,985] Trial 133 finished with value: 0.3312396459835423 and parameters: {'learning_rate_init': 0.005414420420707878, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:24,201] Trial 131 finished with value: 0.3333960888001282 and parameters: {'learning_rate_init': 0.0030818090026031152, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:24,226] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:48:26,426] Trial 135 finished with value: 3.871204250503935 and parameters: {'learning_rate_init': 0.007756168887200794, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:27,380] Trial 136 finished with value: 5.051027933190846 and parameters: {'learning_rate_init': 0.012809713568126808, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:27,821] Trial 137 finished with value: 4.1816815821129945 and parameters: {'learning_rate_init': 0.030808634576628444, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:27,898] Trial 139 finished with value: 4.088204605601757 and parameters: {'learning_rate_init': 0.007457798328471198, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:28,349] Trial 138 finished with value: 2.891593385037185 and parameters: {'learning_rate_init': 0.03149596501864038, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:48:28,376] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:49:14,430] Trial 141 finished with value: 0.26638839040119094 and parameters: {'learning_rate_init': 0.0026251379296008256, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:14,804] Trial 142 finished with value: 0.26193072346291246 and parameters: {'learning_rate_init': 0.002600761176797365, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:15,368] Trial 144 finished with value: 0.26319216397647377 and parameters: {'learning_rate_init': 0.0025356012053992117, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:16,632] Trial 140 finished with value: 0.2609882590186978 and parameters: {'learning_rate_init': 0.025849232493516866, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:19,991] Trial 143 finished with value: 0.2631138670712317 and parameters: {'learning_rate_init': 0.025097200149774235, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:20,031] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:49:24,824] Trial 147 finished with value: 1.681607277630561 and parameters: {'learning_rate_init': 0.013181646061141408, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:24,893] Trial 145 finished with value: 2.895875016174831 and parameters: {'learning_rate_init': 0.012933470262638776, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:25,106] Trial 148 finished with value: 1.9739972848013192 and parameters: {'learning_rate_init': 0.010275048135720576, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:25,444] Trial 149 finished with value: 1.9468533730345638 and parameters: {'learning_rate_init': 0.012754760316403593, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:25,537] Trial 146 finished with value: 1.7773468633960665 and parameters: {'learning_rate_init': 0.012929607752515641, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:25,577] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:49:27,757] Trial 153 finished with value: 4.936792965703183 and parameters: {'learning_rate_init': 0.009596926537742384, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:28,224] Trial 154 finished with value: 4.820370610727282 and parameters: {'learning_rate_init': 0.021115454086866166, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:28,536] Trial 150 finished with value: 3.8145452564074525 and parameters: {'learning_rate_init': 0.03583767150380179, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:29,056] Trial 152 finished with value: 3.150598540304726 and parameters: {'learning_rate_init': 0.021666595482924697, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:29,156] Trial 151 finished with value: 2.462399439591817 and parameters: {'learning_rate_init': 0.021098861083842884, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:49:29,200] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:50:15,045] Trial 155 finished with value: 0.24924303339816248 and parameters: {'learning_rate_init': 0.0071413387554809605, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:16,061] Trial 159 finished with value: 0.24681669777072815 and parameters: {'learning_rate_init': 0.004856110463548453, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:17,777] Trial 156 finished with value: 0.2506166657799043 and parameters: {'learning_rate_init': 0.005068056650004543, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:17,861] Trial 158 finished with value: 0.24489776388379067 and parameters: {'learning_rate_init': 0.004664258308429711, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:19,181] Trial 157 finished with value: 0.2520646607903757 and parameters: {'learning_rate_init': 0.00704759467879529, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:19,228] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:50:22,914] Trial 163 finished with value: 1.9201049489699666 and parameters: {'learning_rate_init': 0.004686222544075582, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:23,703] Trial 160 finished with value: 1.8089879614228916 and parameters: {'learning_rate_init': 0.003954761841647095, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:23,706] Trial 162 finished with value: 2.457438542440315 and parameters: {'learning_rate_init': 0.0010535233069207586, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:23,933] Trial 164 finished with value: 1.696232393856951 and parameters: {'learning_rate_init': 0.0010562653449898624, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:24,902] Trial 161 finished with value: 1.6521745937573467 and parameters: {'learning_rate_init': 0.00438820877745723, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:24,936] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:50:29,439] Trial 169 finished with value: 2.880502541243652 and parameters: {'learning_rate_init': 0.008742178409807597, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:29,569] Trial 168 finished with value: 4.241247474968662 and parameters: {'learning_rate_init': 0.008321582811962566, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:29,742] Trial 167 finished with value: 4.6434077474204 and parameters: {'learning_rate_init': 0.008716768829812021, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:29,920] Trial 166 finished with value: 2.914595302152605 and parameters: {'learning_rate_init': 0.008481801564212282, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:30,687] Trial 165 finished with value: 2.8189560060274537 and parameters: {'learning_rate_init': 0.008568347707951429, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:50:30,718] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:51:17,364] Trial 170 finished with value: 0.25924709091723924 and parameters: {'learning_rate_init': 0.006465548342243265, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:17,589] Trial 172 finished with value: 0.27280497131845816 and parameters: {'learning_rate_init': 0.010305739675105771, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:18,997] Trial 171 finished with value: 0.26224470878863193 and parameters: {'learning_rate_init': 0.010866370034346418, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:21,047] Trial 173 finished with value: 0.258342139492358 and parameters: {'learning_rate_init': 0.011085119758073041, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:23,096] Trial 174 finished with value: 0.25827211550416135 and parameters: {'learning_rate_init': 0.010597714969825308, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:23,129] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:51:27,130] Trial 177 finished with value: 2.64621707854734 and parameters: {'learning_rate_init': 0.015062109439345476, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:27,550] Trial 176 finished with value: 2.486311958793982 and parameters: {'learning_rate_init': 0.044400784658181466, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:27,656] Trial 179 finished with value: 2.6654744522265683 and parameters: {'learning_rate_init': 0.0438350900439679, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:28,105] Trial 175 finished with value: 2.7395228221290995 and parameters: {'learning_rate_init': 0.014965488323612608, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:28,116] Trial 178 finished with value: 1.8368870525739982 and parameters: {'learning_rate_init': 0.04296366292779504, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:28,169] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:51:35,900] Trial 183 finished with value: 0.2521482811537124 and parameters: {'learning_rate_init': 0.04844416772191714, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:35,969] Trial 181 finished with value: 0.25395478010379574 and parameters: {'learning_rate_init': 0.006294864696925261, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:36,150] Trial 182 finished with value: 0.2233286228557448 and parameters: {'learning_rate_init': 0.047161566245667176, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:36,390] Trial 184 finished with value: 0.27069447926206697 and parameters: {'learning_rate_init': 0.04668945784922056, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:36,463] Trial 180 finished with value: 0.24628108571343144 and parameters: {'learning_rate_init': 0.04721855959161146, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:51:36,512] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:53:25,778] Trial 189 finished with value: 0.294103989608616 and parameters: {'learning_rate_init': 0.051281564919547176, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:25,842] Trial 188 finished with value: 0.2948441519057671 and parameters: {'learning_rate_init': 0.04668504839984517, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:26,408] Trial 187 finished with value: 0.2885701134517638 and parameters: {'learning_rate_init': 0.04703570503053892, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:27,166] Trial 185 finished with value: 0.289529958657422 and parameters: {'learning_rate_init': 0.04901928787092767, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:28,531] Trial 186 finished with value: 0.2937116329971665 and parameters: {'learning_rate_init': 0.034348968122404774, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:28,564] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:53:41,996] Trial 190 finished with value: 0.3201563763339616 and parameters: {'learning_rate_init': 0.04015795020048286, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:42,562] Trial 193 finished with value: 0.339980414522472 and parameters: {'learning_rate_init': 0.05488797062481529, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:42,897] Trial 194 finished with value: 0.3422304213337617 and parameters: {'learning_rate_init': 0.050065205557932875, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:43,172] Trial 192 finished with value: 0.3302096622143564 and parameters: {'learning_rate_init': 0.05530034635242311, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:43,416] Trial 191 finished with value: 0.3284748988000514 and parameters: {'learning_rate_init': 0.04076956959840989, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:43,452] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:53:50,931] Trial 195 finished with value: 0.2358489833020138 and parameters: {'learning_rate_init': 0.016899019255764272, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:50,946] Trial 197 finished with value: 0.24449703847811619 and parameters: {'learning_rate_init': 0.05245911265739992, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:50,995] Trial 196 finished with value: 0.2422845625605796 and parameters: {'learning_rate_init': 0.04610016019375014, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:51,094] Trial 198 finished with value: 0.28715316404474944 and parameters: {'learning_rate_init': 0.05286023532266927, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:51,151] Trial 199 finished with value: 0.2135141184372085 and parameters: {'learning_rate_init': 0.051603330853451035, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:53:51,236] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:55:31,286] Trial 202 finished with value: 0.2684436492963176 and parameters: {'learning_rate_init': 0.051852159710149726, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:32,841] Trial 203 finished with value: 0.26754365329019386 and parameters: {'learning_rate_init': 0.05117137596306104, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:35,725] Trial 204 finished with value: 0.272065561732773 and parameters: {'learning_rate_init': 0.052269462297858824, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:35,907] Trial 200 finished with value: 0.26490020905641914 and parameters: {'learning_rate_init': 0.051390845066219125, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:36,579] Trial 201 finished with value: 0.26604524044849276 and parameters: {'learning_rate_init': 0.05243182580088691, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:36,631] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:55:50,578] Trial 207 finished with value: 0.3311616695598545 and parameters: {'learning_rate_init': 0.046279138525853886, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:51,583] Trial 209 finished with value: 0.34438256632090897 and parameters: {'learning_rate_init': 0.04922127559057279, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:51,676] Trial 206 finished with value: 0.33421781687567714 and parameters: {'learning_rate_init': 0.04733305182906673, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:51,793] Trial 205 finished with value: 0.3084232758944583 and parameters: {'learning_rate_init': 0.04792451548993038, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:51,799] Trial 208 finished with value: 0.33142235210548115 and parameters: {'learning_rate_init': 0.0490906347878239, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:55:52,039] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:56:00,180] Trial 211 finished with value: 0.27093991211177065 and parameters: {'learning_rate_init': 0.04567403521730231, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:56:00,715] Trial 213 finished with value: 0.26323823223285614 and parameters: {'learning_rate_init': 0.0555855615211511, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:56:01,001] Trial 212 finished with value: 0.2503582717068187 and parameters: {'learning_rate_init': 0.0454952318290007, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:56:01,002] Trial 214 finished with value: 0.2780129880186575 and parameters: {'learning_rate_init': 0.042150263651565184, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:56:01,222] Trial 210 finished with value: 0.2570994362217665 and parameters: {'learning_rate_init': 0.04537226651577718, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:56:01,262] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:57:34,680] Trial 218 finished with value: 0.29120862706404677 and parameters: {'learning_rate_init': 0.016722766986617576, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:36,931] Trial 215 finished with value: 0.29391645021129614 and parameters: {'learning_rate_init': 0.05365012300995284, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:38,791] Trial 219 finished with value: 0.2919320396064052 and parameters: {'learning_rate_init': 0.05787118496560939, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:40,737] Trial 216 finished with value: 0.2954511329463588 and parameters: {'learning_rate_init': 0.028726792306534025, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:41,380] Trial 217 finished with value: 0.2952690091531703 and parameters: {'learning_rate_init': 0.038244087842061535, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:41,437] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:57:56,084] Trial 222 finished with value: 0.34348369167706 and parameters: {'learning_rate_init': 0.0035415480496388037, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:57,071] Trial 220 finished with value: 0.3283565106556234 and parameters: {'learning_rate_init': 0.004303732370402307, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:57,259] Trial 224 finished with value: 0.32174382727509226 and parameters: {'learning_rate_init': 0.0041837425988364586, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:57,312] Trial 221 finished with value: 0.3069129793999388 and parameters: {'learning_rate_init': 0.003447985297109279, 'hidden_layer_sizes': [5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:57,617] Trial 223 finished with value: 0.325680333528694 and parameters: {'learning_rate_init': 0.0043246217025593985, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:57:57,677] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:58:00,430] Trial 229 finished with value: 4.900171058698777 and parameters: {'learning_rate_init': 0.01173767050989287, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:01,226] Trial 228 finished with value: 4.011342962690178 and parameters: {'learning_rate_init': 0.006600114199378608, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:01,270] Trial 225 finished with value: 4.65278896832751 and parameters: {'learning_rate_init': 0.00681217751827491, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:01,430] Trial 226 finished with value: 3.292075187271156 and parameters: {'learning_rate_init': 0.006738358505947071, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:01,983] Trial 227 finished with value: 2.928815605616315 and parameters: {'learning_rate_init': 0.0073487417235725515, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:02,024] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:58:53,847] Trial 234 finished with value: 0.266803631178873 and parameters: {'learning_rate_init': 0.04272577739966397, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:56,675] Trial 232 finished with value: 0.2651448862877441 and parameters: {'learning_rate_init': 0.009885798049736268, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:58:57,351] Trial 233 finished with value: 0.26782382311624003 and parameters: {'learning_rate_init': 0.014022097786603637, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:00,076] Trial 230 finished with value: 0.2606626283222209 and parameters: {'learning_rate_init': 0.042843041429692905, 'hidden_layer_sizes': [10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:00,456] Trial 231 finished with value: 0.2621446472570378 and parameters: {'learning_rate_init': 0.04283633856213333, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:00,517] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:59:05,396] Trial 236 finished with value: 2.249749093222164 and parameters: {'learning_rate_init': 0.011396531222868291, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:05,797] Trial 237 finished with value: 2.1719985066122582 and parameters: {'learning_rate_init': 0.01780252366449828, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:05,868] Trial 235 finished with value: 2.606889664436043 and parameters: {'learning_rate_init': 0.011714038611104826, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:06,074] Trial 238 finished with value: 2.285257124636795 and parameters: {'learning_rate_init': 0.012225003247565654, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:06,185] Trial 239 finished with value: 1.9769835989146785 and parameters: {'learning_rate_init': 0.012203336024221356, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:06,268] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 19:59:09,599] Trial 244 finished with value: 4.627519864472912 and parameters: {'learning_rate_init': 0.03175672252818722, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:10,630] Trial 242 finished with value: 4.816025292783517 and parameters: {'learning_rate_init': 0.00931796667421081, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:10,657] Trial 241 finished with value: 4.790384973397544 and parameters: {'learning_rate_init': 0.03183810029588677, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:10,928] Trial 243 finished with value: 4.400602968996469 and parameters: {'learning_rate_init': 0.027683360614130997, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:11,339] Trial 240 finished with value: 3.0949406538761117 and parameters: {'learning_rate_init': 0.04931528031709137, 'hidden_layer_sizes': [50, 50]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 19:59:11,392] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 20:00:10,959] Trial 249 finished with value: 0.2633742715208016 and parameters: {'learning_rate_init': 0.04505446919066298, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:14,390] Trial 245 finished with value: 0.2479005785087135 and parameters: {'learning_rate_init': 0.04545686749436303, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:15,319] Trial 246 finished with value: 0.251923916038877 and parameters: {'learning_rate_init': 0.04555131142360501, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:15,912] Trial 247 finished with value: 0.25139388861661044 and parameters: {'learning_rate_init': 0.04542043907310957, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:16,775] Trial 248 finished with value: 0.24913771472252513 and parameters: {'learning_rate_init': 0.04519034260165849, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:16,822] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 20:00:20,966] Trial 252 finished with value: 1.8977153354775034 and parameters: {'learning_rate_init': 0.04785079715505001, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:22,221] Trial 253 finished with value: 1.6773809543245306 and parameters: {'learning_rate_init': 0.04808313902251705, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:22,559] Trial 250 finished with value: 1.4387366704150215 and parameters: {'learning_rate_init': 0.04781416139759955, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:22,623] Trial 251 finished with value: 2.115531447482383 and parameters: {'learning_rate_init': 0.04769517727532729, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:22,646] Trial 254 finished with value: 1.9215320169920125 and parameters: {'learning_rate_init': 0.04847335904433363, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:22,767] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 20:00:26,585] Trial 257 finished with value: 4.480962858114142 and parameters: {'learning_rate_init': 0.05084892627279773, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:26,919] Trial 255 finished with value: 4.180829211829939 and parameters: {'learning_rate_init': 0.038374399839126404, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:27,121] Trial 258 finished with value: 4.132674449294631 and parameters: {'learning_rate_init': 0.05108327877189897, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:27,342] Trial 259 finished with value: 3.4345460473775145 and parameters: {'learning_rate_init': 0.04072305179202218, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:27,495] Trial 256 finished with value: 3.118495142918382 and parameters: {'learning_rate_init': 0.05047745293276652, 'hidden_layer_sizes': [20, 20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:00:27,541] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 20:01:21,690] Trial 264 finished with value: 0.27018804902080706 and parameters: {'learning_rate_init': 0.03018122782179776, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:24,716] Trial 262 finished with value: 0.25865330159066446 and parameters: {'learning_rate_init': 0.03532597793552112, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:25,135] Trial 261 finished with value: 0.2667094271801558 and parameters: {'learning_rate_init': 0.07364746794734925, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:25,230] Trial 260 finished with value: 0.26114583263588015 and parameters: {'learning_rate_init': 0.008405450237469199, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:25,836] Trial 263 finished with value: 0.2669554551372033 and parameters: {'learning_rate_init': 0.03743085744420629, 'hidden_layer_sizes': [5]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:25,908] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 20:01:31,985] Trial 267 finished with value: 2.2082784761494154 and parameters: {'learning_rate_init': 0.03411933275900745, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:33,324] Trial 265 finished with value: 1.748355098939031 and parameters: {'learning_rate_init': 0.05407722854994903, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:33,811] Trial 269 finished with value: 1.411121806517877 and parameters: {'learning_rate_init': 0.0535263752701301, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:33,993] Trial 268 finished with value: 1.8071717976197423 and parameters: {'learning_rate_init': 0.014325168764925629, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:34,202] Trial 266 finished with value: 1.3161233765436056 and parameters: {'learning_rate_init': 0.014847753308398302, 'hidden_layer_sizes': [20]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:34,249] Using an existing study with name 'ANN' instead of creating a new one.
+[I 2023-11-06 20:01:41,096] Trial 273 finished with value: 0.2504731637226846 and parameters: {'learning_rate_init': 0.005287887727986383, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:41,341] Trial 272 finished with value: 0.2508720403353088 and parameters: {'learning_rate_init': 0.0057322225075413374, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:41,468] Trial 271 finished with value: 0.2739368961548055 and parameters: {'learning_rate_init': 0.005771424785213102, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:41,595] Trial 274 finished with value: 0.275329637847178 and parameters: {'learning_rate_init': 0.005163975336769874, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:41,726] Trial 270 finished with value: 0.2234488762704043 and parameters: {'learning_rate_init': 0.005675050996343054, 'hidden_layer_sizes': [10]}. Best is trial 15 with value: 0.21298519029399185.
+[I 2023-11-06 20:01:41,790] Using an existing study with name 'ANN' instead of creating a new one.
+slurmstepd: error: *** JOB 330300 ON cn044 CANCELLED AT 2023-11-06T20:02:30 DUE TO TIME LIMIT ***

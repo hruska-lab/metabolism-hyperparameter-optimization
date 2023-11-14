@@ -23,3 +23,496 @@
 {"op_code": 5, "worker_id": "f26bfd3f-e225-4092-a42d-70ef985809b6-47280521058048", "trial_id": 4, "param_name": "learning_rate_init", "param_value_internal": 0.013490600441857115, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
 {"op_code": 5, "worker_id": "f26bfd3f-e225-4092-a42d-70ef985809b6-47280521058048", "trial_id": 4, "param_name": "hidden_layer_sizes", "param_value_internal": 3, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
 {"op_code": 6, "worker_id": "f26bfd3f-e225-4092-a42d-70ef985809b6-47280521058048", "trial_id": 4, "state": 1, "values": [0.27332123916067164], "datetime_complete": "2023-11-07T17:30:36.459918"}
+{"op_code": 0, "worker_id": "e2e6f468-0822-45b7-8f3b-e6ec0f1d9baf-4812", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "e2e6f468-0822-45b7-8f3b-e6ec0f1d9baf-21060", "study_id": 0, "datetime_start": "2023-11-13T20:40:02.364142"}
+{"op_code": 5, "worker_id": "e2e6f468-0822-45b7-8f3b-e6ec0f1d9baf-21060", "trial_id": 5, "param_name": "learning_rate_init", "param_value_internal": 0.040476396672893225, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "e2e6f468-0822-45b7-8f3b-e6ec0f1d9baf-21060", "trial_id": 5, "param_name": "hidden_layer_sizes", "param_value_internal": 3, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "e2e6f468-0822-45b7-8f3b-e6ec0f1d9baf-21060", "trial_id": 5, "state": 1, "values": [0.266561095008563], "datetime_complete": "2023-11-13T20:40:02.941494"}
+{"op_code": 0, "worker_id": "13f4915a-5ef6-4f58-9797-159362f0787d-9840", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "13f4915a-5ef6-4f58-9797-159362f0787d-21112", "study_id": 0, "datetime_start": "2023-11-13T20:40:04.745506"}
+{"op_code": 5, "worker_id": "13f4915a-5ef6-4f58-9797-159362f0787d-21112", "trial_id": 6, "param_name": "learning_rate_init", "param_value_internal": 0.06626222469071508, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "13f4915a-5ef6-4f58-9797-159362f0787d-21112", "trial_id": 6, "param_name": "hidden_layer_sizes", "param_value_internal": 7, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "13f4915a-5ef6-4f58-9797-159362f0787d-21112", "trial_id": 6, "state": 1, "values": [0.2686181459860611], "datetime_complete": "2023-11-13T20:40:05.336764"}
+{"op_code": 0, "worker_id": "4397ee22-c1c7-4c67-8950-c46ad2cec352-2372", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "4397ee22-c1c7-4c67-8950-c46ad2cec352-9576", "study_id": 0, "datetime_start": "2023-11-14T12:15:28.483777"}
+{"op_code": 5, "worker_id": "4397ee22-c1c7-4c67-8950-c46ad2cec352-9576", "trial_id": 7, "param_name": "learning_rate_init", "param_value_internal": 0.0485389057342983, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "4397ee22-c1c7-4c67-8950-c46ad2cec352-9576", "trial_id": 7, "param_name": "hidden_layer_sizes", "param_value_internal": 7, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "4397ee22-c1c7-4c67-8950-c46ad2cec352-9576", "trial_id": 7, "state": 1, "values": [0.2718226855358595], "datetime_complete": "2023-11-14T12:15:29.003003"}
+{"op_code": 0, "worker_id": "ec3ffabb-a716-4730-83e6-7164d0be4ce6-6556", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f6bc5c78-6153-43ed-9ec3-c6872e94ca04-6556", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "44851a82-18b6-4be0-a217-8a661001d022-6556", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5b078dcc-9c85-4081-90a2-8fc885813fd3-6556", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9cc54652-20de-4a14-ac71-c830ac11ad5d-6556", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2a862e1c-655c-4dbf-a79c-4e6251673f9c-2012", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f372efc0-9c69-41ae-bdc0-27f1b6c4ec01-2012", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e3cde392-5245-4d48-9674-60017545877f-2012", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5f70bd87-a22a-42a5-8afc-99abb6bc75e4-2012", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "2a862e1c-655c-4dbf-a79c-4e6251673f9c-13764", "study_id": 0, "datetime_start": "2023-11-14T13:25:20.400493"}
+{"op_code": 5, "worker_id": "2a862e1c-655c-4dbf-a79c-4e6251673f9c-13764", "trial_id": 8, "param_name": "learning_rate_init", "param_value_internal": 0.006633366148703731, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "2a862e1c-655c-4dbf-a79c-4e6251673f9c-13764", "trial_id": 8, "param_name": "hidden_layer_sizes", "param_value_internal": 0, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 0, "worker_id": "b3c24fa0-b2a1-4f49-88c6-7ec5004d3d2b-2012", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "88f37ef0-649b-49ee-ae9a-d9b688cc9031-2012", "study_name": "ANN", "directions": [1]}
+{"op_code": 6, "worker_id": "2a862e1c-655c-4dbf-a79c-4e6251673f9c-13764", "trial_id": 8, "state": 1, "values": [0.2847201605397515], "datetime_complete": "2023-11-14T13:25:33.740473"}
+{"op_code": 4, "worker_id": "f372efc0-9c69-41ae-bdc0-27f1b6c4ec01-13764", "study_id": 0, "datetime_start": "2023-11-14T13:26:54.345417"}
+{"op_code": 5, "worker_id": "f372efc0-9c69-41ae-bdc0-27f1b6c4ec01-13764", "trial_id": 9, "param_name": "learning_rate_init", "param_value_internal": 0.08812151766210213, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "f372efc0-9c69-41ae-bdc0-27f1b6c4ec01-13764", "trial_id": 9, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "f372efc0-9c69-41ae-bdc0-27f1b6c4ec01-13764", "trial_id": 9, "state": 1, "values": [0.2746194711794306], "datetime_complete": "2023-11-14T13:27:06.630362"}
+{"op_code": 0, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "39aa1e1d-2cf0-4554-ad77-2ecba0dbc92e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6db2ba87-bd65-4422-9143-7106498e519c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5d7d7acb-eeb6-4417-9c96-e69bea5be035-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7b14175e-b0cd-4744-9c22-2a7cfb7eacfb-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e5a29304-f2c3-422e-87f8-4bd27d723de6-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "35123f61-ce78-4431-9898-fd2a73e8f4c9-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2bacbebb-5586-4018-be24-ab988132af6c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a3b2d5d8-7781-47fe-8e48-7561b323c02a-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ce020d31-f80e-49f3-888a-2179f77d9e9b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3224978c-93ed-46e5-9001-b6d7b24e8117-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e9be1edc-eca4-4956-883e-fb5e8f4a1b8b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "89957c5b-d93a-4908-87a8-6dba2c39584d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "0bec87c3-f618-42c9-af28-030e53251207-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e3e312ef-6f02-49e2-80b3-fec41330e68f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "75f1a1a6-d660-4d7c-94b8-638c39a15a39-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "09dbdf1a-d5d8-4daf-983f-93709d1de2ff-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f1f06ac3-ef39-41c0-8277-0424f6172b0d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "00cfa686-d4d2-4053-ac28-e6ab10038253-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "60cc6212-07e0-4002-9941-874f46f8fc96-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "59ab90fd-8cd5-410b-9f09-5b3235a4eebc-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "043159c8-aef3-4572-9c7d-a75f3fe61819-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d9836257-d103-4d54-a57c-88a5e8540e91-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d30cb1cd-e0fc-4ab4-8c94-667c06f2359a-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "04613c79-2b6b-41d0-8f86-5bb68a5c3b00-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a333e562-1609-421b-bfad-a6b1db8012e1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4fea0b87-75d3-4aca-aafd-e71c794fe118-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2a2ec458-88d6-40ab-b0b9-3ab83e623735-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f8dee664-b1f9-44bd-b74c-12e4df8c99a4-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b9b8a90b-bc41-4576-9d45-8c8f9cb82e0d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "94c7bfed-569b-4258-9df6-abc3dde77ae7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "0f95aca3-2c3c-4fcc-8304-8ac0ae999b19-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "73ad5a90-ed7a-4378-a852-22ba6b6a9878-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f3772796-34fe-4026-8363-41a84668cb11-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "aaa205c2-30c0-4d73-a6b2-d2d6798d586b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "fbd18303-73df-4475-9791-7be6057deb6d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7c457877-a5ae-4f79-b15c-2c6682fb6d69-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2d90c34f-48ae-4900-92b4-3ca579f78a8e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9766a37c-be7f-4068-a5a2-bfa193264c91-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "cea6c772-3e15-4752-8e97-a77430e39e74-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a6a49e6c-2ba9-4cb4-8b3a-bb3a81d4064b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "59fb0ec4-6407-402e-847b-beeb986e57bd-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b2ebc23f-7315-49da-abfb-c49ab13d7646-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "87c78474-a43b-4da2-abd9-a3e2c2315e47-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ef901026-8633-4d2a-ab1b-4e3dd13a2e19-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4cced5c8-a130-4b8e-bfdf-29a4e1eb4c3a-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f7be125f-80f8-48fd-8885-6f68261d13ba-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3e520864-7261-4371-b276-b1172b6e5fc7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4daac39a-24b8-432f-9dac-78599646c7a2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "df55b4a9-26c9-4bb1-b399-5a833dae694d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a02e04e4-1b3b-4843-9314-7c2b9455ce17-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ef0d8ab2-9395-4352-bed8-652190b948e2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c154b35e-922a-4ca0-87b6-4ced65dd7366-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6b3f48af-513b-48fc-877d-80c59633c14d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "24f38de3-9c8b-4bb0-b063-7dd259112be8-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a3849eb0-bb45-40cd-9ea5-8997538f07cf-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f5ab49b0-b0b9-45c6-89d9-ea3cb5d52c18-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5f0ec0bd-2b50-43c0-9937-b7edc48547e2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e05fad3e-2571-4060-a7fd-56039991da10-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "55a9ba25-3f2d-4d1d-9bbe-a2e2a159b97c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7f5d1f10-774b-4b68-982c-6bd31e589829-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8f5a8ae9-91f0-4f5d-9f95-5321f71e3c92-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a5e10f6d-22b5-4036-8bfa-dd982efb5a98-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7d4bfb41-a129-445c-b239-0a1cb303af44-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d87592f4-08c8-42ea-9cef-a0072e240633-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9527883d-9076-4ddb-bd15-ad34d10e1e5d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a41bb230-e65f-4d75-bfab-c124e30fd644-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2984bbf3-0676-4231-91b5-ed3275fe6e4c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2d1a9ab9-2e16-43c8-a667-1c85c428a771-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d565bd33-2289-4191-9f73-1b015b71d124-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f4851c1d-da3c-4bac-8d2b-a759483a650c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "23d71ead-b6fd-4147-ab81-7937785b0541-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4c55d6c9-3c4c-483d-9015-29a2afb6ecfe-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "867f0191-61e7-4b16-898e-72632bcde572-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ddfe884c-49ea-4dce-8782-fa08f6c10fae-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "1ed7c42d-d948-4b33-805d-28a68b0705c5-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f002db80-9bc9-4977-aa63-91d61da3b648-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a2c3df34-ddd0-47a4-9652-32bc791349e5-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f242d2df-13ac-484c-85ff-a1a9716cc285-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2df1bde7-99be-42f9-b98f-26e581cbabf0-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "da956846-f5fb-478c-9199-0fb519d399f8-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "03693f1e-7dd7-4307-a562-a7be50b76699-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "206fd8bd-fd25-4682-abc4-4bbc1c1c4217-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4609554b-dc96-48b6-8104-ff7de321b34b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "1b83943a-9cba-4042-9005-1b27f05e44cb-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "84e4dc81-65f7-41e9-9931-7355080e7bac-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6318047f-a146-44ef-bb4d-ca7460463f29-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3ecc830b-718a-4914-816e-2cc06dcf4ff9-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "82041e4e-d7e4-4583-be51-70c94a005b15-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8002625e-267a-46b7-be9d-de3eb5068168-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d50aa22f-cce9-46b0-9af7-ce0e985c7ab7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8cae4fd8-c3a0-43da-ac1e-cec57d669aac-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ad5dce6e-3c52-40d2-a3e7-4848430baddb-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "994be0bd-dd81-419c-b5d0-701f1351dea7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "855fba7a-d5a8-4ee4-bffa-907ec009a814-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5a702d68-8afe-4b7f-9ed1-e029d0b66976-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d285a3ce-93cc-4ae0-9701-b752aaaea4d3-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "80f40c58-bee7-4786-ab9a-6bef9cef5c66-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "77582100-64d4-4b23-ab68-cccdef7cb427-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "00025712-276d-4c8f-9947-4c3663cef3e3-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "aa771812-203b-4da9-9f5e-4847207f4601-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "10d2711b-f422-4003-a73d-108b0236dc11-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2d36924a-a4d2-410f-9418-3fa99aaf82b5-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "10d61098-7b11-4cbc-8420-ba338f3a963f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "51ff77ec-d6af-4e8a-a2bb-1e0cbf89746f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b1a82fbd-a261-47eb-b144-f4d6ca73a26d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "08439b88-7f8f-4b72-98be-3847dcb3901f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "0438e6c7-5b01-4572-ab52-330bc68b4e75-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "76fc1627-83f4-4f37-92b3-01d6efdac4c7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "37e9e8a0-766e-440a-9126-a20a099fbbcf-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7e6cc16a-33ca-4135-bc4f-c2133138b1a1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b238729a-598a-4911-a482-0ef257f3b526-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5b7c9753-dc59-4a13-9bc4-f9c4257ff896-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f886d02a-872e-4507-817e-d774b6998f65-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f49ece7b-6d40-46d2-8f8f-d13d8787b6e9-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "59cbe982-ae57-4166-aafd-b82d3b125503-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bdc0e375-87a0-4850-b9c1-41a55955a49c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9b9bcdac-fa09-42e8-873f-9ca0873561de-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e2fceccf-d669-4fb6-8fc7-b28756bbf25e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "372e95a4-eeaf-4a49-b23f-5f8742362441-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "75e18eba-441f-4f0b-9356-64c1a76a2216-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4bc17369-4419-4c9c-bad9-31d8c7fa90fe-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "92bdde15-d753-423a-9914-f5fa70c41ae2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ead4032e-388e-4ab5-82cb-8765e08b8474-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "465422b3-dd66-4d29-803f-032edfa77cb2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7adb01a3-1bd6-4d3b-98b9-0557b1786b01-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "599de2b7-0eea-45ca-a39a-d5733c8565a7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2857e441-8084-42e7-8531-e2c3f925856f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e28a7f2c-a568-4a24-a5d3-29d867e85ed2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "246188c5-9a1b-4cde-8c79-b797f2576041-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ff81f8a2-9167-4961-83c3-54f473b4877b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6daa393b-1bc2-45b0-b20c-9fe73f62a576-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "18a056c8-e92b-448f-9e6c-453900e5ac82-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bc457377-e551-4d12-993e-c4f197d3be3e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "58913cab-014a-4de6-9eea-1e439b3ac700-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8f78d11e-5900-4fb7-860c-076c0c06743d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ae2e9278-827f-4e6a-94a2-c969dcb1c98f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d44f41ab-9a35-4f76-bfa8-9f82310e8a44-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5d9be21c-a713-4ae2-8e04-0d1be0d992ba-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5ef637fe-103c-4ae6-abae-6aabc7ff5f07-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "659df5e1-49dd-41d2-a7b2-cd1ddfbf9737-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3e10a9c1-9cc9-44e9-9faf-3eda1bacc672-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "dfa17d4f-e3bf-49c7-9b38-125b118cf1ba-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6231be37-e1c9-466b-b21e-e6393b708455-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "206c1842-0190-4dcf-80af-3d166b4a7b62-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f551229e-36c6-4bb8-9102-8a53b2e24d97-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "fbef7b45-9ba7-48b8-8ccb-161d08478d96-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "1906fbdc-e480-4796-8e09-b5190929c819-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7f0fd99d-33d3-4ef0-8572-88b2c929fa28-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "250794af-de51-40c3-9341-817162c95bb7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "54d0fc7b-a299-4c9a-b1a9-0ffcb464f2cd-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e4877b87-8205-4cb9-a192-fdb88b22a1a4-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6055dba0-8e14-42e4-8ee1-2c40970215d4-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c042df89-76cd-4221-b276-309226922abe-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2766c171-89b4-4b34-b1b9-cf3c25e94f5f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f2d986ee-3978-4006-a3f5-8053d5d0f500-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f2438e56-b404-443a-8d80-cbc5805d4e64-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f379bb86-d6ac-42c6-a955-7bb5b98d2fd5-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2e28b7c2-20be-4c45-b1a6-ee8b5305d6c2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "52fa4565-efb9-4e47-a2f2-17c3577db4a4-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "daa2b873-9ad6-4dd1-8ae1-3d8f45c9d1cc-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "55bbec0d-c047-4078-a1e1-98337b40bf37-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e1aa2d37-ccd8-4ca3-9205-e35c95c66d7f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2129dc29-3ec4-42c5-b1c1-72495d238ea1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "372ba2a4-07cc-47b1-ae6e-c2f4d98b6f1f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c6b5ad81-3f88-4a2e-b0d4-7914ad599e77-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "aa7917fd-d6c5-4763-8f18-f43201b420ad-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "cb006b4c-4cfb-4916-80c9-dce325288263-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d5205648-bfb2-4d1b-9e18-e1914a0a8c69-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e215a844-4d64-4bc8-a699-82f32e493f1c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d3ea9ffa-43bd-456f-aa1e-96138b50389d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4f344a67-d24c-4e72-80a5-80330d3b52a1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9300cb1d-94e1-4a35-9844-be3432bf9de0-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "52510d28-a5e9-4a8c-8bf5-3fcb719fe90c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "12af0a64-2459-4c30-bd18-48616163894d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "28b0beec-6f82-41cd-817c-f6b10715689b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a9bdfbb4-2933-45cf-a5eb-1ef287d2cade-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bb639488-5579-45ef-a0ba-c70b826ca87d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c739d3b6-ded0-4fbe-ac8f-b87055a92fda-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "952fbe8a-bc36-4f22-bd6c-71946ff603c1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "98a68fce-9bd4-4ffe-a4db-7e22d1d90278-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e2415868-9dbe-4b76-a16c-bfa8e79ebbf6-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "584a6489-4aad-487d-9fbf-1ae48c03302d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "04118819-174f-437c-8fc7-899606e44265-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c59b1d0d-810f-4f86-87a4-3ac6df8ee340-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f6570400-d92e-417d-9e32-260c2c245d37-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b25e9ac0-92b5-4d59-b7a2-ceabcf2177d2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "cd8147a1-5747-4855-8895-1e6fe0996fe2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "86c0521b-61be-4e76-8c9d-6037458f7371-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8042d851-c4be-4db7-a801-f760a9aa3845-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "df9b4cf6-6751-412d-b27e-f6cd17ae0c88-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "995b5a85-5f85-4dfe-af3e-04891132a60e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "450f6532-2dcd-4ca1-be0c-728b6bdf8dbf-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f49b1bb7-5182-45cd-8635-ce5756332a49-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "34ada762-88a6-4260-8cc1-88bae3a039ff-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "35d7927a-7af6-462b-9e5d-025f7f13df24-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "463f240e-b130-49c6-bf85-0c24647334e1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a01af1b2-d072-4140-a27b-8a3f3ed691f0-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c19f40d1-37b4-46a3-9f0b-fccd66dc616c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f374605a-2668-4e57-8a3f-5bf0b2f1aaa3-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "32b433dc-9eb7-437d-ba0b-a94383d6065b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6da8ea3d-90ed-42f1-b83f-3faf38c3d932-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "75da0489-391d-44ca-a7e4-74d50aa8d9e8-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3dfa241b-8ff2-46a7-a329-baa5adc79b6f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d1b8bf3e-8bd5-4256-9207-418aab05e250-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bf54a258-df02-427f-91df-0c3de0cb1ccf-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f57ae7a2-6b75-4473-ab14-d75ffda9f48c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "24a90325-e8d1-4f17-b85f-108e5badfe62-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9f39bc6a-8c97-433a-9340-db274bfb70b1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6dd49af6-b960-4472-b6b9-7ffc0e09ae55-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "33de8c31-e2b3-4ea0-8ac5-1ee5e56554c7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4f368dfd-7574-4185-a78e-63ebc0929c5d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7f523c06-f43d-410a-8e15-8a83097ca602-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "0168c6e2-1963-46ef-a6fd-15df126daa6d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "252282aa-bcf8-4405-ba2d-42bb9ce0c4f4-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "be26e7e0-b49a-41bd-89a0-1f51606b593f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7734655b-884f-42c5-852c-ef479fb82fdb-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "f0e4a5a0-705e-49b4-bde7-670897e92109-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "52f69af4-0ce7-454d-868f-73709de9f8b9-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b9adc5a7-df52-4366-9ed2-1486d2bb3c40-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9b6b0be3-e90a-4c02-840b-08f230fbc28e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2676cf0e-d643-4606-b833-740a16488cbc-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c6a0357c-6d09-49d0-bd4a-96854b7c6563-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "401b93d3-249f-408a-a17a-51017bbe1eaa-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5e149248-b02c-41b9-8adf-220faf1d3fc3-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "dd448067-e13f-4b48-90ce-c3a1bfee1c5b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "641dce69-c513-4cb4-9e0e-cdb0c212d1a8-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3d04b40e-d9cb-47e4-98dd-ed864db728dc-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "fddd630d-c088-4777-b6b1-34f26c4aaff1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9d538a0e-b4ed-422d-b918-a15331b4492b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "308db01a-9ff0-4960-96d6-f8cfa4620e2b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e6361959-c1cd-45ef-ad86-9bea1a07abe1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6506bc5b-2a43-4209-9293-fe879d4fb82e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ec13356e-3813-4271-a2a9-f85bd987bf79-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4aed27c7-8a2d-4e2b-90ea-8c63640d4e90-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bb462f8f-cab5-450a-ad83-fb94b564a52a-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "950f043f-86cc-4fd1-9d96-6fce6fb82a9c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "00eb4b35-d3e5-4309-af1f-a8608cfd1ae2-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "19455b1b-aa72-492a-9472-8e1ec2ac7c08-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "190560ce-e3c5-4a5f-ba97-711d6d6b724f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "181923dd-033d-47cd-9417-498fa42bd430-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "23f521e3-0be7-46a6-8f89-3c0e8a08027d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a7d3cbf4-883f-4eb1-9b18-bf3cb5dbb551-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "285ccecc-ab3e-4ce8-a2b3-9eba2159acaf-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "1cf40c37-ef36-47e2-be30-fcb818f8fec9-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ab905840-bfa6-4c0a-9e8f-d1b6cddbfc93-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ec0de06b-a830-4713-a45e-3934e73084fb-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "308f4dd2-22a6-479f-995f-71ffe30833f5-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "909b0662-d888-4eae-bf46-a334cafb8faa-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d91be1dd-8a9e-4199-9aec-0fdcba8f4795-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bbee59cd-e9ce-4181-824f-03c95f80babe-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ed9994dd-4383-4a7a-acac-cb592e7d3e70-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a12c2a3b-2d72-4082-accd-635b34b3c57f-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8eae8e39-e766-4703-9ecd-fd795d277a0d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b616ce2e-0862-4eaa-a8eb-6f97ba104d92-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d8c7b727-4f37-4800-a839-ab6bbbce26ac-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5aea54f9-62fd-4890-96af-31408761b248-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5fad91ff-d640-452c-bdae-83befa48317b-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "78789d3e-24c9-45e2-bb20-13f9f8100c97-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "e25541a2-774d-418d-b1ea-84af65f949ec-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "882bdc7f-46e8-45a3-98e3-a60f19ecff83-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "51415398-f369-44f4-bef5-3051fa4a2909-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8e72ac24-8882-4ee4-a976-28f51424e00a-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "be05c705-c839-4a9d-aa60-7992472441fa-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b7d8fef6-7946-46c2-8dae-aeb63eb7f39e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a0b5918a-9836-4f8e-be5c-8dba9150a260-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "a3da3a7e-1db3-4b53-882e-d43ad2d9ea07-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "07fac080-9499-4070-9f4e-6d5b4f2637d0-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "dc2444bd-2e24-4b51-99e9-ef9a10a2fe10-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "1d333a3a-143a-48f4-a0af-36218ef58755-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "332a4d6f-66a8-4741-a7a0-103314286f65-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "959355cd-0805-451e-80ad-6a20d0d6bc30-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2f67d152-dc7a-4569-a45e-cd4d3b8a0ef8-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ee3286ae-0b34-4d82-98f4-059bfd9030bc-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "40be67db-c3b6-4914-b3a3-26b205355cb0-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "3f7777e4-0f60-4373-a6be-3ff33c50b674-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "4db879b5-0650-44fe-969f-89c662163e1c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "661b01ac-f45d-47e9-95e4-493779af7ce7-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d461303a-d925-4126-90e7-c655f1431a72-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "992a0c9c-c045-4003-9d22-904387bbb7d4-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "0bf32f5e-97cf-43e4-9a11-a9f6d4fe785d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "c83ff366-12e2-4908-a148-c6568d4078e8-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "5498d2aa-f899-447d-b771-ea989a647c5e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d08e0220-4410-406e-abf8-d71ac24772fe-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "b948e50c-fe92-42a0-bb1f-a73ef3fd2e8e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "478d1f8e-c415-442f-b153-e19551a38a0e-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "7080c766-becf-4b7c-b556-e0e69248da67-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "15d99e09-6626-4139-b67b-57d50f82a891-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "2b48ef83-91b3-464c-8d73-3eb192f933c1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "bebbcdfe-1b48-4a79-bb8a-ee4d85a9d637-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6d0d8665-c0ec-4ba0-91af-14a548c80638-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "9ef56e28-e45f-4473-9d5e-6bc98ca70d0d-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "ad51e4cf-98cd-4596-a447-ef7ea6a6890c-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "8eb46bf4-e155-459e-a14b-4a0168bb04d1-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "d9b3f006-118c-4e0a-ab8e-0d9fd729f4e0-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 0, "worker_id": "6d6e5cc5-fd28-40b8-9693-555a513c7d67-4160", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:00:22.731332"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 10, "param_name": "learning_rate_init", "param_value_internal": 0.09618519425688186, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 10, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 10, "state": 1, "values": [0.27047384519700807], "datetime_complete": "2023-11-14T14:00:43.930068"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:00:44.029089"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 11, "param_name": "learning_rate_init", "param_value_internal": 0.07677951143156679, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 11, "param_name": "hidden_layer_sizes", "param_value_internal": 0, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 11, "state": 1, "values": [0.24609314295867665], "datetime_complete": "2023-11-14T14:01:04.143330"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:01:04.179338"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 12, "param_name": "learning_rate_init", "param_value_internal": 0.07568844331936171, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 12, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 12, "state": 1, "values": [0.2595370274447842], "datetime_complete": "2023-11-14T14:01:23.760415"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:01:23.803425"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 13, "param_name": "learning_rate_init", "param_value_internal": 0.06909104912144307, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 13, "param_name": "hidden_layer_sizes", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 13, "state": 1, "values": [0.2737899798069796], "datetime_complete": "2023-11-14T14:01:43.980582"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:01:44.030593"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 14, "param_name": "learning_rate_init", "param_value_internal": 0.03354125021619423, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 14, "param_name": "hidden_layer_sizes", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 14, "state": 1, "values": [0.2604854959366967], "datetime_complete": "2023-11-14T14:02:12.595122"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:02:12.655136"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 15, "param_name": "learning_rate_init", "param_value_internal": 0.05930580833515184, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 15, "param_name": "hidden_layer_sizes", "param_value_internal": 2, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 15, "state": 1, "values": [0.28201142516699396], "datetime_complete": "2023-11-14T14:02:40.701175"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:02:40.746184"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 16, "param_name": "learning_rate_init", "param_value_internal": 0.0817420537636108, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 16, "param_name": "hidden_layer_sizes", "param_value_internal": 5, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 16, "state": 1, "values": [0.26282928616034745], "datetime_complete": "2023-11-14T14:03:08.333295"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:03:08.412313"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 17, "param_name": "learning_rate_init", "param_value_internal": 0.09920801992675386, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 17, "param_name": "hidden_layer_sizes", "param_value_internal": 8, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 17, "state": 1, "values": [0.2743395591819121], "datetime_complete": "2023-11-14T14:03:38.598190"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:03:38.647201"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 18, "param_name": "learning_rate_init", "param_value_internal": 0.029911479538994406, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 18, "param_name": "hidden_layer_sizes", "param_value_internal": 0, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 18, "state": 1, "values": [0.29382735928914877], "datetime_complete": "2023-11-14T14:03:58.767818"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:03:58.808828"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 19, "param_name": "learning_rate_init", "param_value_internal": 0.05682519701429782, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 19, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 19, "state": 1, "values": [0.285002396422825], "datetime_complete": "2023-11-14T14:04:17.599374"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:04:17.638383"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 20, "param_name": "learning_rate_init", "param_value_internal": 0.06963544320697967, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 20, "param_name": "hidden_layer_sizes", "param_value_internal": 9, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 20, "state": 1, "values": [0.28338935653643776], "datetime_complete": "2023-11-14T14:04:36.490685"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:04:36.529694"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 21, "param_name": "learning_rate_init", "param_value_internal": 0.080398996749649, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 21, "param_name": "hidden_layer_sizes", "param_value_internal": 0, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 21, "state": 1, "values": [0.24944695216770404], "datetime_complete": "2023-11-14T14:04:54.932270"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:04:55.020290"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 22, "param_name": "learning_rate_init", "param_value_internal": 0.09044205463170028, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 22, "param_name": "hidden_layer_sizes", "param_value_internal": 0, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 22, "state": 1, "values": [0.28130738575701925], "datetime_complete": "2023-11-14T14:05:15.846885"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:05:15.893895"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 23, "param_name": "learning_rate_init", "param_value_internal": 0.07625641645754731, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 23, "param_name": "hidden_layer_sizes", "param_value_internal": 0, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 23, "state": 1, "values": [0.25653222252074753], "datetime_complete": "2023-11-14T14:05:35.588047"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:05:35.626055"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 24, "param_name": "learning_rate_init", "param_value_internal": 0.0871117416750393, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 24, "param_name": "hidden_layer_sizes", "param_value_internal": 2, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 24, "state": 1, "values": [0.2585104117925328], "datetime_complete": "2023-11-14T14:05:52.964874"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:05:53.029889"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 25, "param_name": "learning_rate_init", "param_value_internal": 0.06470766900706898, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 25, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 25, "state": 1, "values": [0.22461082688804127], "datetime_complete": "2023-11-14T14:06:13.178623"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:06:13.212630"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 26, "param_name": "learning_rate_init", "param_value_internal": 0.05356098595023935, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 26, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 26, "state": 1, "values": [0.24965897746329704], "datetime_complete": "2023-11-14T14:06:33.313431"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:06:33.356441"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 27, "param_name": "learning_rate_init", "param_value_internal": 0.06364898901350872, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 27, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 27, "state": 1, "values": [0.28319917309907844], "datetime_complete": "2023-11-14T14:06:53.387125"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:06:53.433135"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 28, "param_name": "learning_rate_init", "param_value_internal": 0.07148571208472113, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 28, "param_name": "hidden_layer_sizes", "param_value_internal": 5, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 28, "state": 1, "values": [0.2826897385541652], "datetime_complete": "2023-11-14T14:07:13.061378"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:07:13.109389"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 29, "param_name": "learning_rate_init", "param_value_internal": 0.06204775038711134, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 29, "param_name": "hidden_layer_sizes", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 29, "state": 1, "values": [0.2885836386692882], "datetime_complete": "2023-11-14T14:07:31.666568"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:07:31.728581"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 30, "param_name": "learning_rate_init", "param_value_internal": 0.06170521826952152, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 30, "param_name": "hidden_layer_sizes", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 30, "state": 1, "values": [0.2434746089696507], "datetime_complete": "2023-11-14T14:07:50.874278"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:07:50.918288"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 31, "param_name": "learning_rate_init", "param_value_internal": 0.05352381560638014, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 31, "param_name": "hidden_layer_sizes", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 31, "state": 1, "values": [0.25618199444805484], "datetime_complete": "2023-11-14T14:08:11.353092"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:08:11.394102"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 32, "param_name": "learning_rate_init", "param_value_internal": 0.06201984109264475, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 32, "param_name": "hidden_layer_sizes", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 32, "state": 1, "values": [0.25892229272708644], "datetime_complete": "2023-11-14T14:08:31.820430"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:08:31.858439"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 33, "param_name": "learning_rate_init", "param_value_internal": 0.056810975633202435, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 33, "param_name": "hidden_layer_sizes", "param_value_internal": 8, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 33, "state": 1, "values": [0.2805581831059583], "datetime_complete": "2023-11-14T14:08:52.701373"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:08:52.746383"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 34, "param_name": "learning_rate_init", "param_value_internal": 0.04281041138369729, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 34, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 34, "state": 1, "values": [0.2651810347716159], "datetime_complete": "2023-11-14T14:09:13.653843"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:09:13.693852"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 35, "param_name": "learning_rate_init", "param_value_internal": 0.048526072895886715, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 35, "param_name": "hidden_layer_sizes", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 35, "state": 1, "values": [0.271388845808715], "datetime_complete": "2023-11-14T14:09:35.011654"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:09:35.055663"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 36, "param_name": "learning_rate_init", "param_value_internal": 0.07254440786032158, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 36, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 36, "state": 1, "values": [0.22902116218559146], "datetime_complete": "2023-11-14T14:09:55.153235"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:09:55.217250"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 37, "param_name": "learning_rate_init", "param_value_internal": 0.06582343225450671, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 37, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 37, "state": 1, "values": [0.26948403136859644], "datetime_complete": "2023-11-14T14:10:15.252240"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:10:15.307253"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 38, "param_name": "learning_rate_init", "param_value_internal": 0.05142139287292189, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 38, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 38, "state": 1, "values": [0.29912535937558987], "datetime_complete": "2023-11-14T14:10:35.362083"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:10:35.411094"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 39, "param_name": "learning_rate_init", "param_value_internal": 0.06590539123392063, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 39, "param_name": "hidden_layer_sizes", "param_value_internal": 3, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 39, "state": 1, "values": [0.2670065839170634], "datetime_complete": "2023-11-14T14:10:57.558332"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:10:57.604342"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 40, "param_name": "learning_rate_init", "param_value_internal": 0.05806895546659436, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 40, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 40, "state": 1, "values": [0.2793781897211134], "datetime_complete": "2023-11-14T14:11:18.280531"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:11:18.321541"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 41, "param_name": "learning_rate_init", "param_value_internal": 0.07413865603278127, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 41, "param_name": "hidden_layer_sizes", "param_value_internal": 9, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 41, "state": 1, "values": [0.25895869489526024], "datetime_complete": "2023-11-14T14:11:39.493987"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:11:39.536997"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 42, "param_name": "learning_rate_init", "param_value_internal": 0.07268254428694056, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 42, "param_name": "hidden_layer_sizes", "param_value_internal": 7, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 42, "state": 1, "values": [0.25391987115853915], "datetime_complete": "2023-11-14T14:11:59.434951"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:11:59.473960"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 43, "param_name": "learning_rate_init", "param_value_internal": 0.06827891101075378, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 43, "param_name": "hidden_layer_sizes", "param_value_internal": 6, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 43, "state": 1, "values": [0.27142740825679607], "datetime_complete": "2023-11-14T14:12:19.426203"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:12:19.471213"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 44, "param_name": "learning_rate_init", "param_value_internal": 0.07916736448626273, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 44, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 44, "state": 1, "values": [0.27136875430971835], "datetime_complete": "2023-11-14T14:12:37.565126"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:12:37.614137"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 45, "param_name": "learning_rate_init", "param_value_internal": 0.06229159935672797, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 45, "param_name": "hidden_layer_sizes", "param_value_internal": 3, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 45, "state": 1, "values": [0.2730470509946889], "datetime_complete": "2023-11-14T14:12:58.574329"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:12:58.622340"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 46, "param_name": "learning_rate_init", "param_value_internal": 0.06824832400768575, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 46, "param_name": "hidden_layer_sizes", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 46, "state": 1, "values": [0.2891790452580852], "datetime_complete": "2023-11-14T14:13:22.028489"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:13:22.073499"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 47, "param_name": "learning_rate_init", "param_value_internal": 0.044988974796279696, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 47, "param_name": "hidden_layer_sizes", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 47, "state": 1, "values": [0.26771281687441756], "datetime_complete": "2023-11-14T14:13:42.578391"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:13:42.625402"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 48, "param_name": "learning_rate_init", "param_value_internal": 0.07729746278954251, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 48, "param_name": "hidden_layer_sizes", "param_value_internal": 7, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 6, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 48, "state": 1, "values": [0.2791390075375231], "datetime_complete": "2023-11-14T14:14:05.429539"}
+{"op_code": 4, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "study_id": 0, "datetime_start": "2023-11-14T14:14:05.477550"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 49, "param_name": "learning_rate_init", "param_value_internal": 0.08357696025195344, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "d78c2a2c-e487-472e-a4aa-8e8f014fafc6-13752", "trial_id": 49, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}
+{"op_code": 0, "worker_id": "49541025-77eb-406e-aaf8-4b10bf985cce-16344", "study_name": "ANN", "directions": [1]}
+{"op_code": 4, "worker_id": "49541025-77eb-406e-aaf8-4b10bf985cce-3548", "study_id": 0, "datetime_start": "2023-11-14T14:51:08.991558"}
+{"op_code": 5, "worker_id": "49541025-77eb-406e-aaf8-4b10bf985cce-3548", "trial_id": 50, "param_name": "learning_rate_init", "param_value_internal": 0.07122696376031344, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.001, \"high\": 0.1, \"log\": false}}"}
+{"op_code": 5, "worker_id": "49541025-77eb-406e-aaf8-4b10bf985cce-3548", "trial_id": 50, "param_name": "hidden_layer_sizes", "param_value_internal": 10, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [[5], [10], [20], [50], [5, 5], [10, 10], [20, 20], [50, 50], [5, 5, 5], [10, 10, 10], [50, 50, 50]]}}"}

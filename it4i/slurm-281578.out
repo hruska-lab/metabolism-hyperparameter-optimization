@@ -1,0 +1,4 @@
+  File "optuna-it4i.py", line 93
+    df = pd.read_csv(rel_paths[f"morgan_{isozyme}_{split}_{splitter}"])
+                                                                    ^
+SyntaxError: invalid syntax

@@ -1,0 +1,181 @@
+[I 2023-11-06 20:45:45,722] A new study created in RDB with name: linear
+[I 2023-11-06 20:45:46,163] Trial 2 finished with value: 0.2089160943877172 and parameters: {'alpha': 0.09952803197691146, 'l1_ratio': 0.11564542536005162}. Best is trial 0 with value: 0.20837413788634196.
+[I 2023-11-06 20:45:46,163] Trial 0 finished with value: 0.20837413788634196 and parameters: {'alpha': 0.09937514854031036, 'l1_ratio': 0.20228354595324272}. Best is trial 0 with value: 0.20837413788634196.
+[I 2023-11-06 20:45:46,179] Trial 3 finished with value: 0.22118828454109415 and parameters: {'alpha': 0.08423487401929898, 'l1_ratio': 0.0005095555029621668}. Best is trial 4 with value: 0.20752804159194416.
+[I 2023-11-06 20:45:46,184] Trial 4 finished with value: 0.20752804159194416 and parameters: {'alpha': 0.06000417900039332, 'l1_ratio': 0.039163100552987995}. Best is trial 4 with value: 0.20752804159194416.
+[I 2023-11-06 20:45:46,200] Trial 1 finished with value: 0.21913833874498057 and parameters: {'alpha': 0.08579823384665017, 'l1_ratio': 0.4293355840519407}. Best is trial 4 with value: 0.20752804159194416.
+[I 2023-11-06 20:45:46,370] A new study created in RDB with name: KRR
+[I 2023-11-06 20:45:47,204] Trial 1 finished with value: 0.150109793798627 and parameters: {'alpha': 0.5983213952916794, 'gamma': 5.481375995215641e-15, 'kernel': 'laplacian'}. Best is trial 1 with value: 0.150109793798627.
+[I 2023-11-06 20:45:47,252] Trial 2 finished with value: 0.14558779867541805 and parameters: {'alpha': 0.23717955337880378, 'gamma': 4.893050317587595e-15, 'kernel': 'linear'}. Best is trial 2 with value: 0.14558779867541805.
+[I 2023-11-06 20:45:47,335] Trial 0 finished with value: 0.14820587325526013 and parameters: {'alpha': 0.8010535214640194, 'gamma': 9.293671489564357e-15, 'kernel': 'linear'}. Best is trial 2 with value: 0.14558779867541805.
+[I 2023-11-06 20:45:47,353] Trial 3 finished with value: 0.15927753692095217 and parameters: {'alpha': 0.9498535989870857, 'gamma': 7.342917971092172e-15, 'kernel': 'linear'}. Best is trial 2 with value: 0.14558779867541805.
+[I 2023-11-06 20:45:47,365] Trial 4 finished with value: 0.15641651850126995 and parameters: {'alpha': 0.055168669818397346, 'gamma': 3.529506561429281e-15, 'kernel': 'laplacian'}. Best is trial 2 with value: 0.14558779867541805.
+[I 2023-11-06 20:45:47,526] A new study created in RDB with name: GB
+[I 2023-11-06 20:45:53,013] Trial 3 finished with value: 0.16822251670293112 and parameters: {'n_estimators': 500, 'learning_rate': 0.13285697028048632, 'max_depth': 5}. Best is trial 3 with value: 0.16822251670293112.
+[I 2023-11-06 20:45:53,061] Trial 0 finished with value: 0.17865657513266578 and parameters: {'n_estimators': 500, 'learning_rate': 0.7605518913728297, 'max_depth': 2}. Best is trial 4 with value: 0.1664336646587632.
+[I 2023-11-06 20:45:53,074] Trial 4 finished with value: 0.1664336646587632 and parameters: {'n_estimators': 200, 'learning_rate': 0.10614545772617959, 'max_depth': 2}. Best is trial 4 with value: 0.1664336646587632.
+[I 2023-11-06 20:45:53,084] Trial 2 finished with value: 0.1808443149725525 and parameters: {'n_estimators': 50, 'learning_rate': 0.7400211669785401, 'max_depth': 2}. Best is trial 4 with value: 0.1664336646587632.
+[I 2023-11-06 20:45:53,158] Trial 1 finished with value: 0.17922354354711348 and parameters: {'n_estimators': 20, 'learning_rate': 0.4465259273433706, 'max_depth': 4}. Best is trial 4 with value: 0.1664336646587632.
+[I 2023-11-06 20:45:53,448] A new study created in RDB with name: RF
+[I 2023-11-06 20:46:06,355] Trial 2 finished with value: 0.16080825521636033 and parameters: {'n_estimators': 500, 'max_features': 'log2', 'max_depth': 4}. Best is trial 2 with value: 0.16080825521636033.
+[I 2023-11-06 20:46:06,397] Trial 0 finished with value: 0.19081677694351853 and parameters: {'n_estimators': 200, 'max_features': 'sqrt', 'max_depth': 4}. Best is trial 2 with value: 0.16080825521636033.
+[I 2023-11-06 20:46:06,401] Trial 4 finished with value: 0.17151731811399884 and parameters: {'n_estimators': 50, 'max_features': 'auto', 'max_depth': 4}. Best is trial 2 with value: 0.16080825521636033.
+[I 2023-11-06 20:46:06,402] Trial 1 finished with value: 0.1756861474759374 and parameters: {'n_estimators': 50, 'max_features': 'sqrt', 'max_depth': 5}. Best is trial 2 with value: 0.16080825521636033.
+[I 2023-11-06 20:46:06,447] Trial 3 finished with value: 0.17678255583745137 and parameters: {'n_estimators': 500, 'max_features': 'auto', 'max_depth': 2}. Best is trial 2 with value: 0.16080825521636033.
+[I 2023-11-06 20:46:06,621] A new study created in RDB with name: ANN
+[I 2023-11-06 20:46:12,221] Trial 4 finished with value: 0.2581376799922475 and parameters: {'learning_rate_init': 0.04686622101874987, 'hidden_layer_sizes': [10]}. Best is trial 4 with value: 0.2581376799922475.
+[I 2023-11-06 20:46:12,594] Trial 1 finished with value: 0.2589908817594759 and parameters: {'learning_rate_init': 0.02305238919723512, 'hidden_layer_sizes': [50, 50, 50]}. Best is trial 4 with value: 0.2581376799922475.
+[I 2023-11-06 20:46:12,680] Trial 0 finished with value: 0.2685685133941793 and parameters: {'learning_rate_init': 0.04973586364128402, 'hidden_layer_sizes': [10, 10, 10]}. Best is trial 4 with value: 0.2581376799922475.
+[I 2023-11-06 20:46:12,736] Trial 3 finished with value: 0.26786403164573186 and parameters: {'learning_rate_init': 0.053708722126105335, 'hidden_layer_sizes': [5, 5, 5]}. Best is trial 4 with value: 0.2581376799922475.
+[I 2023-11-06 20:46:12,852] Trial 2 finished with value: 0.23036043360651473 and parameters: {'learning_rate_init': 0.0018554317303731364, 'hidden_layer_sizes': [20, 20]}. Best is trial 2 with value: 0.23036043360651473.
+     56, [63, 'CC(C)(O)c1cc(F)c2c(c1)C(=O)N(Cc1ccc(Cl)cn1)[C@@]2(OCC1(O)CC1)c1ccc(Cl)cc1', 0.9999999999999998, 13.1753, 1.4177, 11.3044, -7.3559, -125.8906, -119.4889]
+     14, [23, 'Cc1ncsc1-c1ccc([C@H](CC(=O)NCCCCCCNC(=O)COc2c(-c3csc(N4CCOCC4)n3)ccc(F)c2F)NC(=O)[C@@H]2C[C@@H](O)CN2C(=O)[C@@H](NC(=O)C2(F)CC2)C(C)(C)C)cc1', 0.0622624201077031, 28.4327, 3.274, 23.4872, -4.0348, -286.1545, -257.0326]
+     removed index 325 corresponding to NaN
+     removed index 678 corresponding to NaN
+     removed index 725 corresponding to NaN
+     removed index 1053 corresponding to NaN
+     1417, [439, 'CN1C(=O)c2ccccc2[S@+]([O-])c2ccc(C(=O)NCc3ccc(Br)cc3)cc21', 0.4181064270905321, 10.3104, 0.7256, 7.5559, -14.2816, -86.2027, -96.3091]
+     356, [66, 'CC(=O)c1c(C)[nH]c(C(=O)Nc2cccc([S+](=O)([O-])Nc3cccc(C#N)c3)c2)c1C', 0.8327574291637871, 10.4683, 2.4345, 9.1374, -15.7732, -116.2014, -124.8128]
+     151, [36, 'N#Cc1ccc(CN2CCC(N3CCNC3=O)CC2)cc1', 0.7615658362989324, 8.7086, 0.7824, 4.7992, -7.9813, -74.8159, -75.7409]
+     38, [185, 'c1ccc(Nc2ncc(-c3cncnc3)c3c2OCC3)cc1', 1.0, 7.6502, 0.7908, 4.359, -17.5939, -69.2221, -78.0498]
+     56, [30, 'COc1cccc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(NC5CCOCC5)ncc4Cl)cc3C2=O)c1', 0.0147310164129507, 16.2478, 2.1011, 12.7179, -10.0882, -164.348, -156.2467]
+     14, [29, 'O=C1CCC(N2C(=O)c3cccc(NCCOCCOCCNC(=O)c4ccc5c(c4)nc(Nc4cccc(Cl)c4)c4ccncc45)c3C2=O)C(=O)N1', 0.0400167292931223, 18.7621, 3.2764, 15.83, -24.805, -206.8013, -216.3639]
+     removed index 627 corresponding to NaN
+     removed index 628 corresponding to NaN
+     removed index 1065 corresponding to NaN
+     removed index 1109 corresponding to NaN
+     1417, [41, 'CNC(=O)C1CCN(c2nc(-c3ccc(Br)cc3)cs2)CC1', 0.8728403593642018, 8.8766, 0.5795, 5.4967, -5.3755, -74.4969, -72.179]
+     356, [675, 'O=c1cc(CN2CCCN(c3ccc(C(F)(F)F)cn3)CC2)nc2ccccn12', 0.2695231513476157, 11.6693, 0.0, 8.7277, -7.9637, -109.4358, -87.089]
+     151, [9, 'Cc1cc(F)ccc1OC1CN(Cc2ccc(C#N)cc2)C1', 0.2473309608540924, 8.9224, 0.0, 4.8259, -11.1508, -61.3626, -68.7406]
+     38, [20, 'Fc1cccc(-c2cnc([C@@H]3COCCN3Cc3cnc[nH]3)[nH]2)c1', 0.4599644128113878, 8.6917, 1.4354, 6.9778, -10.2452, -97.3783, -101.0987]
+     56, [25, 'O=C(NC1CCN(CCc2c[nH]c3ccccc23)CC1)c1ccccc1', 0.0439188969472542, 9.3803, 1.1336, 4.4019, -10.2484, -68.9045, -79.1529]
+     14, [44, 'COc1cc(F)cc([C@@H](CO)NC(=O)[C@@H](C)N2Cc3ccc(-c4nc(NC5COC5)ncc4Cl)cc3C2=O)c1', 0.1384047171537122, 15.1005, 2.4247, 13.7023, -11.5729, -168.823, -163.9418]
+     removed index 1085 corresponding to NaN
+     1420, [865, 'O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12', 0.1807187284035936, 4.8109, 4.2098, 9.0356, -15.906, -100.4349, -116.3409]
+     removed index 149 corresponding to NaN
+     removed index 152 corresponding to NaN
+     removed index 165 corresponding to NaN
+     353, [963, 'COc1cc(C(=O)Nc2nc(-c3ccccc3)cs2)ccc1NS(=O)(=O)c1ccc(C)cc1', 0.1485832757429163, 10.6471, 1.8191, 7.4917, -18.2286, -98.1729, -109.0432]
+     151, [107, 'O=C(Nc1cnc(-c2ccccc2)nc1)c1ccccc1', 1.0, 7.4704, 0.6471, 3.9158, -15.3358, -60.546, -70.5429]
+     38, [104, 'Cc1ccccc1-c1[nH]nc2ncc(-c3ccccc3)nc12', 0.7215302491103203, 6.5793, 0.7599, 2.616, -18.8676, -48.3099, -58.8456]
+random 3A4 linear
+random 3A4 KRR
+random 3A4 GB
+random 3A4 RF
+random 3A4 ANN
+random RLM linear
+Traceback (most recent call last):
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3280, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 665, in __connect
+    with util.safe_reraise():
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/it4i-majerl/Documents/datacytochromy/optuna-it4i.py", line 151, in <module>
+    study = optuna.create_study(study_name=model_identifier, directions=['minimize'], pruner=pruner,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.local/lib/python3.11/site-packages/optuna/_convert_positional_args.py", line 63, in converter_wrapper
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.local/lib/python3.11/site-packages/optuna/study/study.py", line 1246, in create_study
+    storage = storages.get_storage(storage)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.local/lib/python3.11/site-packages/optuna/storages/__init__.py", line 43, in get_storage
+    return _CachedStorage(RDBStorage(storage))
+                          ^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.local/lib/python3.11/site-packages/optuna/storages/_rdb/storage.py", line 230, in __init__
+    models.BaseModel.metadata.create_all(self.engine)
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/sql/schema.py", line 4916, in create_all
+    bind._run_ddl_visitor(
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3146, in _run_ddl_visitor
+    with self.begin() as conn:
+         ^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3062, in begin
+    conn = self.connect(close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3234, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3313, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3283, in _wrap_pool_connect
+    Connection._handle_dbapi_exception_noconnection(
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2117, in _handle_dbapi_exception_noconnection
+    util.raise_(
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 3280, in _wrap_pool_connect
+    return fn()
+           ^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 310, in connect
+    return _ConnectionFairy._checkout(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 868, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 476, in checkout
+    rec = pool._do_get()
+          ^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 256, in _create_connection
+    return _ConnectionRecord(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 371, in __init__
+    self.__connect()
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 665, in __connect
+    with util.safe_reraise():
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/util/compat.py", line 208, in raise_
+    raise exception
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/pool/base.py", line 661, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/create.py", line 590, in connect
+    return dialect.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/it4i-majerl/.conda/envs/soc/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 597, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
