@@ -126,11 +126,10 @@ for splitter in splitters:
             features["jazzy"][splitter][isozyme][split] = df_features
             halflives["jazzy"][splitter][isozyme][split] = thalfs
 
+sampler = samplers['TPESampler']
+pruner = pruners["HyperbandPruner"]
 with ThreadPoolExecutor() as executor:
     futures = []
-
-    sampler = samplers['TPESampler']
-    pruner = pruners["HyperbandPruner"]
     t_end = time.time() + (60 * 60 * 24)
     while time.time() < t_end:
         # while loop is needed; if instead n_trials was large only one model would be trained
