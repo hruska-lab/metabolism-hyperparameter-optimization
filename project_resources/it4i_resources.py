@@ -60,9 +60,32 @@ def parse_jazzy_df(df):
 
     return smiles, mol_features, halflives, contains_nan
 
+def optuna_trial_logging(log_csv_path, trial_number, parameters, rmsd, predictions):
+    # creates or appends to a csv file for storing results of optuna hyperparameter optimization
+    # the coulumns of the csv file correspond to the hyperparameters, rmsd of the model and predicted values of the test dataset
+    pattern = re.compile(r'[^\\/:*?"<>|\r\n]+$', re.IGNORECASE)
+    csv_name = pattern.findall(log_csv_path)[0]
+    try:
+        optuna_df = pd.read_csv(log_csv_path)
+        new_data = {**{"trial_number": trial_number}, **parameters}
+        new_df = pd.DataFrame([new_data])
+        joined_df = pd.concat([optuna_df, new_df], ignore_index=True)
+        joined_df["rmsd"] = rmsd
+        joined_df["predictions"] = predictions
+        joined_df.to_csv(log_csv_path)
+        print(f"successfully updated {csv_name} with hyperparams from trial {trial_number}")
+
+    except FileNotFoundError:
+        new_data = {**{"trial_number": trial_number}, **parameters}
+        new_df = pd.DataFrame([new_data])
+        new_df["rmsd"] = rmsd
+        new_df["predictions"] = predictions
+        new_df.to_csv(log_csv_path)
+        print(f"successfully create {csv_name} with hyperparams from trial {trial_number} as the first entry")
 
 class HyperparamTuner():
-    def __init__(self, model_identifier, X_train, y_train, X_test, y_test):
+    def __init__(self, log_csv_path, model_identifier, X_train, y_train, X_test, y_test):
+        self.log_csv_path = log_csv_path
         self.model_identifier = model_identifier
         self.X_train = X_train
         self.y_train = y_train
@@ -102,7 +125,7 @@ class HyperparamTuner():
 
         if model_identifier == 'RF':
             n_estimators = trial.suggest_categorical("n_estimators", [10, 20, 50, 200, 500])
-            max_features = trial.suggest_categorical("max_features", ["auto", "sqrt", "log2"])
+            max_features = trial.suggest_categorical("max_features", ["sqrt", "log2"])
             max_depth = trial.suggest_categorical("max_depth", [None, 2, 3, 4, 5, 10])
             return {
                 "n_estimators": n_estimators,
@@ -160,7 +183,7 @@ class HyperparamTuner():
         else:
             return rmsd
 
-    def train_test_return(self, parameters, model, return_predictions=False):
+    def train_test_return(self, parameters, model, trial_number, return_predictions=False):
         runs = 3
         runs_results = []
         y_tests_predicted = []
@@ -188,15 +211,21 @@ class HyperparamTuner():
 
         # Calculate the standard deviation of predictions
         y_tests_predicted = np.array(y_tests_predicted)
-        std = np.std(y_tests_predicted, axis=0)
+        std = np.std(y_tests_predicted, axis=0)[0]
+        
+        average_predictions = np.average(y_tests_predicted, axis=0)[0]
+        average_result = np.mean(runs_results)
+        
+        # write the result and hyperparameters of a run to csv file
+        optuna_trial_logging(self.log_csv_path, trial_number, parameters, average_result, average_predictions)
 
         if return_predictions:
             # Return the mean RMSD, average predictions, and standard deviations
-            return np.mean(runs_results), np.average(y_tests_predicted, axis=0)[0], std[0]
+            return average_result, average_predictions, std
         else:
             # Return the mean objective/s of these runs
-            return np.mean(runs_results)
+            return average_result
 
     def objective(self, trial=None):
         parameters, model = self.sample_params(trial, self.model_identifier)
-        return self.train_test_return(parameters, model)
+        return self.train_test_return(parameters, model, trial.number)
