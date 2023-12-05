@@ -2,6 +2,9 @@
 # without importing any packages which are not needed
 
 
+import os
+import re
+import csv
 from rdkit import Chem
 from rdkit.Chem import AllChem
 import numpy as np
@@ -60,28 +63,37 @@ def parse_jazzy_df(df):
 
     return smiles, mol_features, halflives, contains_nan
 
-def optuna_trial_logging(log_csv_path, trial_number, parameters, rmsd, predictions):
-    # creates or appends to a csv file for storing results of optuna hyperparameter optimization
-    # the coulumns of the csv file correspond to the hyperparameters, rmsd of the model and predicted values of the test dataset
-    pattern = re.compile(r'[^\\/:*?"<>|\r\n]+$', re.IGNORECASE)
-    csv_name = pattern.findall(log_csv_path)[0]
-    try:
-        optuna_df = pd.read_csv(log_csv_path)
-        new_data = {**{"trial_number": trial_number}, **parameters}
-        new_df = pd.DataFrame([new_data])
-        joined_df = pd.concat([optuna_df, new_df], ignore_index=True)
-        joined_df["rmsd"] = rmsd
-        joined_df["predictions"] = predictions
-        joined_df.to_csv(log_csv_path)
-        print(f"successfully updated {csv_name} with hyperparams from trial {trial_number}")
+def optuna_trial_logging(log_csv_path, trial_number, parameters, rmsd, predictions, std):
+    # Check if the CSV file exists
+    is_new_file = not os.path.isfile(log_csv_path)
 
-    except FileNotFoundError:
-        new_data = {**{"trial_number": trial_number}, **parameters}
-        new_df = pd.DataFrame([new_data])
-        new_df["rmsd"] = rmsd
-        new_df["predictions"] = predictions
-        new_df.to_csv(log_csv_path)
-        print(f"successfully create {csv_name} with hyperparams from trial {trial_number} as the first entry")
+    # Open the CSV file in append mode
+    with open(log_csv_path, 'a', newline='') as csvfile:
+        fieldnames = ['Trial Number', 'Parameters', 'RMSD', 'Predictions', 'Std']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+        # If the file is newly created, write the header
+        if is_new_file:
+            writer.writeheader()
+
+        # Write the data for the current trial
+        writer.writerow({
+            'Trial Number': trial_number,
+            'Parameters': parameters,
+            'RMSD': rmsd,
+            'Predictions': predictions.tolist(),  # Convert numpy array to a list for CSV
+            'Std': std.tolist()  # Convert numpy array to a list for CSV
+        })
+
+    # Extract only the filename using regular expressions
+    file_name_match = re.search(r'[^\\/:*?"<>|\r\n]+$', log_csv_path)
+    file_name = file_name_match.group() if file_name_match else log_csv_path
+
+    # Print appropriate success message with the filename
+    if is_new_file:
+        print(f"Successfully created {file_name} with results of trial {trial_number} as the first entry")
+    else:
+        print(f"Successfully updated {file_name} with results of trial {trial_number}")
 
 class HyperparamTuner():
     def __init__(self, log_csv_path, model_identifier, X_train, y_train, X_test, y_test):
@@ -178,38 +190,40 @@ class HyperparamTuner():
     def evaluate(self, model, X_test, y_test, return_predictions=False):
         predictions = model.predict(X_test)
         rmsd = mean_squared_error(y_test, predictions, squared=False)
-        if return_predictions:
-            return rmsd, predictions
-        else:
-            return rmsd
+        return rmsd, predictions
 
-    def train_test_return(self, parameters, model, trial_number, return_predictions=False):
+    def train_test_return(self, parameters, model, trial_number):
         runs = 3
+        # average over all runs
         runs_results = []
         y_tests_predicted = []
 
         for run in range(runs):
             validation_splits = self.cross_validation_splits(self.X_train, self.X_test, self.y_train, self.y_test)
+            # average over all splits in a given run
             cv_fold_results = []
             y_test_predicted = []
             fold_num = 0
 
+            # cross-validation
             for (X_train_val, X_test_val, y_train_val, y_test_val) in validation_splits:
                 fold_num += 1
+                
+                # train the model on the given validation split
                 model.fit(X_train_val, y_train_val)
-
-                if return_predictions and fold_num == 6:
-                    cv_fold_rmsd, validation_predictions = self.evaluate(model, X_test_val, y_test_val, return_predictions=return_predictions)
-                    y_test_predicted.append(validation_predictions)
-                else:
-                    cv_fold_rmsd = self.evaluate(model, X_test_val, y_test_val, return_predictions=False)
-
+                cv_fold_rmsd, validation_predictions = self.evaluate(model, X_test_val, y_test_val)
+                
+                # and save the result of that split
                 cv_fold_results.append(cv_fold_rmsd)
+                
+                # after all five folds, append the final predictions
+                if fold_num == 6:
+                    y_test_predicted.append(validation_predictions)
 
             runs_results.append(np.mean(cv_fold_results))
             y_tests_predicted.append(y_test_predicted)
 
-        # Calculate the standard deviation of predictions
+        # calculate the standard deviation of predictions
         y_tests_predicted = np.array(y_tests_predicted)
         std = np.std(y_tests_predicted, axis=0)[0]
         
@@ -217,14 +231,9 @@ class HyperparamTuner():
         average_result = np.mean(runs_results)
         
         # write the result and hyperparameters of a run to csv file
-        optuna_trial_logging(self.log_csv_path, trial_number, parameters, average_result, average_predictions)
+        optuna_trial_logging(self.log_csv_path, trial_number, parameters, average_result, average_predictions, std)
 
-        if return_predictions:
-            # Return the mean RMSD, average predictions, and standard deviations
-            return average_result, average_predictions, std
-        else:
-            # Return the mean objective/s of these runs
-            return average_result
+        return average_result
 
     def objective(self, trial=None):
         parameters, model = self.sample_params(trial, self.model_identifier)
