@@ -1,4 +1,4 @@
-# datacytochromy
+# metabolism-hyperparameter-optimization
 **Jazzy-data-prep.ipynb** → Generování molekulárních deskriptorů pomocí [Jazzy](https://github.com/AstraZeneca/jazzy) a spolu s half-life/clearance ukládání do csv souborů do project_resources/jazzy_splits.\
 **mols-visualization.ipynb** → 2D i 3D vizualizace některých molekul, pro správné fungování 3D modelů je potřeba stáhnout [jupyterlab_3dmol](https://github.com/3dmol/jupyterlab_3Dmol) extention.\
 **TDC-ADME.ipynb** → Strojové učení pomocí modelů ze [scikit-learn](https://scikit-learn.org/stable/) na ECFP a molekulárních deskriptorech.
