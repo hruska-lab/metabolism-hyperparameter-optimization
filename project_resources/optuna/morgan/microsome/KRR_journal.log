@@ -5005,3 +5005,8 @@
 {"op_code": 5, "worker_id": "d37ecc1c-7e4d-4d69-a6cd-65f0f4301873-10452", "trial_id": 1000, "param_name": "gamma", "param_value_internal": 5.094268720133366e-15, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.0, \"high\": 1e-14, \"log\": false}}"}
 {"op_code": 5, "worker_id": "d37ecc1c-7e4d-4d69-a6cd-65f0f4301873-10452", "trial_id": 1000, "param_name": "kernel", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [\"linear\", \"laplacian\", \"rbf\"]}}"}
 {"op_code": 6, "worker_id": "d37ecc1c-7e4d-4d69-a6cd-65f0f4301873-10452", "trial_id": 1000, "state": 1, "values": [0.30567137759501645], "datetime_complete": "2023-12-18T06:44:57.792561"}
+{"op_code": 0, "worker_id": "e1aef512-1ae7-49b4-bab4-be6566b8b83d-11240", "study_name": "KRR", "directions": [1]}
+{"op_code": 4, "worker_id": "e1aef512-1ae7-49b4-bab4-be6566b8b83d-15832", "study_id": 0, "datetime_start": "2024-03-02T15:14:03.792952"}
+{"op_code": 5, "worker_id": "e1aef512-1ae7-49b4-bab4-be6566b8b83d-15832", "trial_id": 1001, "param_name": "alpha", "param_value_internal": 0.9838514327695773, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.3, \"high\": 1.0, \"log\": false}}"}
+{"op_code": 5, "worker_id": "e1aef512-1ae7-49b4-bab4-be6566b8b83d-15832", "trial_id": 1001, "param_name": "gamma", "param_value_internal": 0.1005066003468226, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.1, \"high\": 0.3, \"log\": false}}"}
+{"op_code": 6, "worker_id": "e1aef512-1ae7-49b4-bab4-be6566b8b83d-15832", "trial_id": 1001, "state": 3, "values": null, "datetime_complete": "2024-03-02T15:14:03.854965"}

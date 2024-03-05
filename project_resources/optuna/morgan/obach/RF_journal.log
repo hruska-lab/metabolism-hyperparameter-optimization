@@ -5005,3 +5005,6 @@
 {"op_code": 5, "worker_id": "fbc7d63d-bbf6-422b-ae79-2374f2d8e4ab-3956", "trial_id": 1000, "param_name": "max_features", "param_value_internal": 1, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [\"sqrt\", \"log2\"]}}"}
 {"op_code": 5, "worker_id": "fbc7d63d-bbf6-422b-ae79-2374f2d8e4ab-3956", "trial_id": 1000, "param_name": "max_depth", "param_value_internal": 5, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [null, 2, 3, 4, 5, 10]}}"}
 {"op_code": 6, "worker_id": "fbc7d63d-bbf6-422b-ae79-2374f2d8e4ab-3956", "trial_id": 1000, "state": 1, "values": [0.058744766580626294], "datetime_complete": "2023-12-18T20:45:59.602495"}
+{"op_code": 0, "worker_id": "92a0b8d8-17cc-46f5-8624-e34033c649bd-11240", "study_name": "RF", "directions": [1]}
+{"op_code": 4, "worker_id": "92a0b8d8-17cc-46f5-8624-e34033c649bd-15832", "study_id": 0, "datetime_start": "2024-03-02T15:14:03.265834"}
+{"op_code": 6, "worker_id": "92a0b8d8-17cc-46f5-8624-e34033c649bd-15832", "trial_id": 1001, "state": 3, "values": null, "datetime_complete": "2024-03-02T15:14:03.289840"}

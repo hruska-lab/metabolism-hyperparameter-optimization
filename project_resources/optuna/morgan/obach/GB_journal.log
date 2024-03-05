@@ -5005,3 +5005,6 @@
 {"op_code": 5, "worker_id": "f5da5469-8b77-4fe4-aa57-63373703f1f0-480", "trial_id": 1000, "param_name": "learning_rate", "param_value_internal": 0.06331028880536509, "distribution": "{\"name\": \"FloatDistribution\", \"attributes\": {\"step\": null, \"low\": 0.005, \"high\": 1.0, \"log\": false}}"}
 {"op_code": 5, "worker_id": "f5da5469-8b77-4fe4-aa57-63373703f1f0-480", "trial_id": 1000, "param_name": "max_depth", "param_value_internal": 4, "distribution": "{\"name\": \"CategoricalDistribution\", \"attributes\": {\"choices\": [1, 2, 3, 4, 5]}}"}
 {"op_code": 6, "worker_id": "f5da5469-8b77-4fe4-aa57-63373703f1f0-480", "trial_id": 1000, "state": 1, "values": [0.07446282804082699], "datetime_complete": "2023-12-18T07:43:48.598289"}
+{"op_code": 0, "worker_id": "2c700492-117d-48a5-9f24-764dff11cb56-11240", "study_name": "GB", "directions": [1]}
+{"op_code": 4, "worker_id": "2c700492-117d-48a5-9f24-764dff11cb56-18192", "study_id": 0, "datetime_start": "2024-03-02T15:14:03.079292"}
+{"op_code": 6, "worker_id": "2c700492-117d-48a5-9f24-764dff11cb56-18192", "trial_id": 1001, "state": 3, "values": null, "datetime_complete": "2024-03-02T15:14:03.118801"}
