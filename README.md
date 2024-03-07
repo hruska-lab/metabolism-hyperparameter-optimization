@@ -1,5 +1,7 @@
 # metabolism-hyperparameter-optimization
-Datasety z [Therapeutics Data Commons](https://tdcommons.ai/) využívané pro trénování a testování modelů: [Obach et al.](https://tdcommons.ai/single_pred_tasks/adme/#half-life-obach-et-al), [AstraZeneca](https://tdcommons.ai/single_pred_tasks/adme/#clearance-astrazeneca)
+Uživatel může predikovat vlastnosti libovolné látky pomocí předtrénovaných modelů skrze [interaktivní inference MetHPO](https://colab.research.google.com/drive/1xaqE8QNvFGhT2YMnqG9va2hSS4X8MTca?usp=sharing).
+
+Datasety z [Therapeutics Data Commons](https://tdcommons.ai/) využívané pro trénování a testování modelů: [Obach et al.](https://tdcommons.ai/single_pred_tasks/adme/#half-life-obach-et-al), [AstraZeneca](https://tdcommons.ai/single_pred_tasks/adme/#clearance-astrazeneca).
 
 **Jazzy-data-prep.ipynb** → Generování molekulárních deskriptorů pomocí [Jazzy](https://github.com/AstraZeneca/jazzy) a spolu s half-life/clearance ukládání do csv souborů do project_resources/jazzy_splits.\
 **mols-visualization.ipynb** → 2D i 3D vizualizace některých molekul, pro správné fungování 3D modelů je potřeba stáhnout [Jupyterlab_3dmol](https://github.com/3dmol/jupyterlab_3Dmol) extention.\
